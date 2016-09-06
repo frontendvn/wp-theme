@@ -1,0 +1,65 @@
+/*===================== Variable =====================*/
+
+/*=== Grid & Layout ===*/
+@grid-columns: 12;
+@grid-gutter: 30px;
+@sub-top-menu-width: 200px;
+@sub-menu-width: 250px;
+@layout-width: 1200px;
+@menu-togger-size: 50px;
+@off-canvas-width: 500px;
+
+/*=== Color === */
+@scheme: #00c365;
+@gold: #f5d76e;
+@black: #000;
+@white: #fff;
+@grey: #ccc;
+@blue: #4183d7;
+@green: #a0ce4e;
+@red: #e74c3c;
+@dark: #333;
+@light: #ddd;
+@orange: #e87e04;
+@pink: #db0a5b;
+@rosy: #ee7787;
+@teal: #3c9091;
+@brown: #876565;
+@lightblue: #58c5c0;
+@darkblue: #42555c;
+@sub-menu-color: #777;
+
+/*=== Background Color ===*/
+@body-background: #fff;
+@sub-menu-background: #1a1a1a;
+
+.rounded (@radius:3px) {
+	-webkit-border-radius: @radius;
+ 	   -moz-border-radius: @radius;
+	    -ms-border-radius: @radius;
+	     -o-border-radius: @radius;
+	        border-radius: @radius;
+}
+.transition (@transition: all 0.2s ease-in-out 0s)  {
+	-webkit-transition: @transition;
+	   -moz-transition: @transition;
+	    -ms-transition: @transition;
+	     -o-transition: @transition;
+	        transition: @transition;
+}
+.box-shadow(@arguments:1px 1px 1px rgba(0, 0, 0, 0.1)) {
+    -webkit-box-shadow: @arguments;
+       -moz-box-shadow: @arguments;
+        -ms-box-shadow: @arguments;
+         -o-box-shadow: @arguments;
+            box-shadow: @arguments;
+}
+.opacity(@opacity: 0.5) {
+	-webkit-opacity: @opacity;
+	 -khtml-opacity: @opacity;
+       -moz-opacity: @opacity;
+            opacity: @opacity;
+            @opperc: @opacity * 100;
+            -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
+                filter: ~"alpha(opacity=@{opperc})";
+}

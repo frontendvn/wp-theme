@@ -1,0 +1,102 @@
+#site-header {
+	#masthead {
+		#site-navigator-mobile {
+			display: none;
+			margin-bottom: 50px;
+			&.active {
+				.navigator-toggle {
+					background: @sub-menu-background;
+				}
+				.menu {
+					display: block;
+				}
+			}
+			.navigator-toggle {
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				color: @white;
+				display: inline-block;
+				line-height: 50px;
+				position: absolute;
+				left: 15px;
+				top: 50px;
+				.box-shadow;
+			}
+			.menu {
+				margin: 15px;
+				padding: 0;
+				background: @sub-menu-background;
+				display: none;
+				li {
+					list-style: none;
+					position: relative;
+					border-bottom: 1px solid darken(@sub-menu-background, 10%);
+					a {
+						display: block;
+						padding: 0 20px;
+						text-transform: uppercase;
+						font-size: 0.8em;
+						line-height: @menu-togger-size;
+						margin-right: @menu-togger-size;
+						color: @sub-menu-color;
+					}
+					.sub-menu {
+						margin-left: 20px;
+						display: none;
+						padding: 0;
+						border-top:  1px solid darken(@sub-menu-background, 10%);
+					}
+					&:last-child {
+						border-bottom: none;
+					}
+					&.menu-item-has-children {
+						.toggler {
+							position: absolute;
+							display: block;
+							width: @menu-togger-size;
+							height: @menu-togger-size;
+							border-left:  1px solid darken(@sub-menu-background, 10%);
+							right: 0;
+							top: 0;
+							z-index: 99;
+							cursor: pointer;
+							&:after {
+								content: "";
+								width: 14px;
+								height: 2px;
+								background: @sub-menu-color;
+								position: absolute;
+								left: 50%;
+								margin-left: -7px;
+								top: 50%;
+								margin-top: -1px;
+							}
+							&:before {
+								content: "";
+								width: 2px;
+								height: 14px;
+								background: @sub-menu-color;
+								position: absolute;
+								left: 50%;
+								margin-left: -1px;
+								top: 50%;
+								margin-top: -7px;
+							}
+						}
+						&.active {
+							> .sub-menu {
+								display: block;
+							}
+							> .toggler {
+								&:before {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

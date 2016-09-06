@@ -1,0 +1,22 @@
+#sample-data-installer[data-state="active"] .start-screen,
+#sample-data-installer[data-state="done"] .start-screen,
+#sample-data-installer .running-screen,
+#sample-data-installer .finish-actions {
+	display: none;
+}
+#sample-data-installer[data-state="active"] .running-screen,
+#sample-data-installer[data-state="done"] .running-screen,
+#sample-data-installer[data-state="done"] .finish-actions {
+	display: block
+}
+
+#sample-data-installer[data-state="active"] .running-screen li[data-task] > span,
+#sample-data-installer[data-state="done"] .running-screen li[data-task] > span {
+	color: #999;
+}
+#sample-data-installer .running-screen li[data-task][data-state="running"] > span {
+	color: #000;
+}
+#sample-data-installer .running-screen li[data-task][data-state="done"] > span {
+	text-decoration: line-through;
+}

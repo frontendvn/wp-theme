@@ -1,0 +1,18 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_mountain">
+			<key name="footer_copyright" />
+			<key name="breadcrumb_prefix" />
+			<key name="blog_archive_readmore_text" />
+		</key>
+	</admin-texts>
+	<custom-types>
+		<custom-type translate="1">member</custom-type>
+		<custom-type translate="1">nproject</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">member-category</taxonomy>
+		<taxonomy translate="1">nproject-category</taxonomy>
+		<taxonomy translate="1">nproject-tag</taxonomy>
+	</taxonomies>
+</wpml-config>

@@ -1,0 +1,38 @@
+#site-wrapper {
+	span.wpcf7-not-valid-tip {
+		margin-top: 8px;
+		font-size: 12px;
+	}
+	div.wpcf7-response-output {
+		padding: 20px 20px 20px 60px;
+		margin-left: 0;
+		margin-right: 0;
+		position: relative;
+		&.wpcf7-validation-errors {
+			border-color: @red;
+			color:@red;
+			&:after {
+				position: absolute;
+				font-family: 'FontAwesome';
+				left: 20px;
+				top: 50%;
+				margin-top: -24px;
+				font-size: 28px;
+				content: "\f071";
+			}
+		}
+		&.wpcf7-mail-sent-ok {
+			border-color: @scheme;
+			color:@scheme;
+			&:after {
+				position: absolute;
+				font-family: 'FontAwesome';
+				left: 20px;
+				top: 50%;
+				margin-top: -24px;
+				font-size: 28px;
+				content: "\f058"; 
+			}
+		}
+	}
+}

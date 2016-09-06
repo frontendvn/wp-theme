@@ -1,0 +1,11 @@
+.wrapper,
+.page-fullwidth #page-body #respond,
+.page-fullwidth #page-body .nocomments {
+  width: 1200px;
+}
+.layout-boxed #site-wrapper {
+  width: 1300px;
+}
+.single-post.no-sidebar #page-body .content-wrap .content .hentry .entry-cover {
+  margin: 0 -1200px;
+}

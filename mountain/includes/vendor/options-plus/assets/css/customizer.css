@@ -1,0 +1,210 @@
+#customize-controls .accordion-section-content {
+  background: #fff;
+}
+
+#customize-controls .options-control h3 {
+  font-size: 12px;
+  position: relative;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+#customize-controls .options-control h3:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f0c9";
+  font-weight: normal;
+  font-size: 14px;
+  left: 0;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+#customize-controls .options-control > p {
+  margin: 0;
+}
+#customize-controls .options-control,
+#customize-controls .options-control * {
+   -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+           box-sizing:border-box;
+}
+#customize-theme-controls .options-control {
+  border-bottom: 1px solid #f5f5f5;
+  padding: 15px 0;
+  margin: 0;
+}
+#customize-theme-controls .options-control.no-border {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+#customize-theme-controls .options-control:last-child {
+  border-bottom: none;
+}
+#customize-theme-controls .options-control-title {
+  line-height: 100%;
+}
+#customize-theme-controls .options-control.options-control-text input[type="text"],
+#customize-theme-controls .options-control.options-control-text input[type="email"],
+#customize-theme-controls .options-control.options-control-text input[type="url"],
+#customize-theme-controls .options-control.options-control-text input[type="tel"],
+#customize-theme-controls .options-control.options-control-text input[type="password"],
+#customize-theme-controls .options-control.options-control-text input[type="number"],
+#customize-theme-controls .options-control textarea,
+#customize-theme-controls .options-control-select .options-control-inputs label {
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+}
+#customize-theme-controls input, 
+#customize-theme-controls select {
+  margin: 0;
+}
+#customize-theme-controls select {
+  height: 30px;
+}
+
+/** options-control-dropdown  */
+#customize-theme-controls .options-control-dropdown select,
+#customize-theme-controls .options-control-dropdown label {
+  width: 100%;
+}
+
+/** options-control-mediapicker **/
+#customize-theme-controls .options-control-media-picker .upload-dropzone {
+  padding: 15px;
+}
+
+/** options-control-switch **/
+#customize-theme-controls .options-control-switcher .options-control-title {
+  float: left;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+#customize-theme-controls .options-control-switcher .options-control-indicator {
+  float: right;
+}
+/** options-control-colorpicker **/
+#customize-theme-controls .options-control-color-picker .options-control-title{
+  float: left;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+#customize-theme-controls .options-control-color-picker .options-control-inputs {
+  text-align: right;
+}
+#customize-theme-controls .options-control-color-picker .colorpicker-panel {
+  position: static;
+  float: left;
+  margin: 3px 0 0 0;
+}
+
+/** options-control-dimension **/
+#customize-theme-controls .options-control-dimension .options-control-inputs label {
+ width: 45%;
+ margin: 0; 
+}
+#customize-theme-controls .options-control-dimension .options-control-inputs label:nth-child(2n) {
+  float: right;
+}
+#customize-theme-controls .options-control-dimension .options-control-inputs label input {
+  width: 100%;
+}
+
+/** options-control-typography **/
+#customize-theme-controls .options-control-typography .typography-font,
+#customize-theme-controls .options-control-typography .typography-size,
+#customize-theme-controls .options-control-typography .typography-style {
+  margin-bottom: 15px;
+}
+#customize-theme-controls .options-control-typography .typography-size input {
+  width: 100%;
+}
+#customize-theme-controls .options-control-dimension.no-label .options-control-inputs label span{
+  color: #555;
+}
+#customize-theme-controls .options-control-dimension.no-label .options-control-inputs label {
+  float: none;
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+}
+#customize-theme-controls .options-control-dimension.no-label .options-control-inputs label:last-child {
+  margin-bottom: 0;
+}
+#customize-theme-controls .options-control-typography .chosen-container-single .chosen-single {
+  background: #fff;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  border:1px solid #ddd;
+  box-shadow: none;
+  font-size: 12px;
+}
+#customize-theme-controls .options-control-typography .chosen-container-single .chosen-single div b {
+  background: none;
+  position: relative;
+}
+#customize-theme-controls .options-control-typography .chosen-container-single .chosen-single div b:after {
+  font-family: FontAwesome;
+  content: "\f0dc";
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  right: 12px;
+  color: #ccc;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+#customize-theme-controls .options-control-typography .chosen-container-single .chosen-single div b:before {
+  content: "";
+  width: 1px;
+  height: 15px;
+  background: #ddd;
+  position: absolute;
+  right: 30px;
+  top: 7px;
+} 
+#customize-theme-controls .options-control-typography .chosen-container .chosen-drop {
+  box-shadow: none;
+  border-radius: 0 0 2px 2px;
+  border-color: #ddd;
+}
+
+/** options-control-background **/
+#customize-theme-controls .options-control-background > .options-control-title {
+  float: left;
+  clear: left;
+  line-height: 30px;
+  margin: 0;
+}
+#customize-theme-controls .options-control-background .background-type label span {
+  max-width: 80px;
+}
+#customize-theme-controls .options-control-background .options-control-color-picker .colorpicker-panel {
+  margin-bottom: 15px;
+}
+#customize-theme-controls .options-control-background .background-type {
+  margin-bottom: 0;
+}
+#customize-theme-controls .options-control-background .background-custom,
+#customize-theme-controls .options-control-background .background-patterns {
+  margin-top: 15px;
+}
+#customize-theme-controls .options-control-background .background-custom .background-repeat .options-control-inputs label span:after, 
+#customize-theme-controls .options-control-background .background-custom .background-style .options-control-inputs label span:after {
+  left: 0;
+  margin: 0;
+  bottom: 37px;
+}
+#customize-theme-controls .options-control-background .background-custom .background-position .options-control-inputs label span,
+#customize-theme-controls .options-control-background .background-custom .background-repeat .options-control-inputs label span,
+#customize-theme-controls .options-control-background .background-custom .background-style .options-control-inputs label span {
+  -webkit-box-sizing:content-box;
+     -moz-box-sizing:content-box;
+          box-sizing:content-box;
+}
+
+/** options-control-under_construction_allowed **/
+#options-control-under_construction_allowed label {
+  display: block;
+  margin-bottom: 8px;
+}

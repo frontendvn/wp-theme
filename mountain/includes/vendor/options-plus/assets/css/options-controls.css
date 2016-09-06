@@ -1,0 +1,1307 @@
+.options-control-switcher,
+.options-control-switcher * {
+  -webkit-transition:all 0.2s ease-in-out 0s;
+     -moz-transition:all 0.2s ease-in-out 0s;
+          transition:all 0.2s ease-in-out 0s;
+}
+.options-container * {
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+          box-sizing:border-box;
+}
+.options-control:before,
+.options-control:after,
+.options-container:before,
+.options-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.options-control {
+  display: block;
+  margin: 0 0 30px 0;
+}
+.options-control:last-child {
+  border-bottom: none;
+}
+.options-control.hide {
+  display: none !important;
+}
+.options-control > p {
+  font-size: 12px;
+  color: #999;
+  margin: 15px 0 -15px 0;
+  font-style: italic;
+}
+.options-control input[type="text"],
+.options-control input[type="email"],
+.options-control input[type="url"],
+.options-control input[type="tel"],
+.options-control input[type="password"],
+.options-control input[type="number"],
+.options-control textarea {
+  border: none;
+  background: #eee;
+  height: 30px;
+  border-radius: 2px;
+  color: #777;
+  padding: 0 10px;
+  font-size: 12px;
+  vertical-align: middle;
+   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+           box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+.options-control input[type="text"]:focus,
+.options-control input[type="email"]:focus,
+.options-control input[type="url"]:focus,
+.options-control input[type="tel"]:focus,
+.options-control input[type="password"]:focus,
+.options-control input[type="number"]:focus,
+.options-control textarea {
+  outline:none;
+  -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.05);
+          box-shadow:inset 0 1px 2px rgba(0,0,0,0.05);
+}
+.options-control button {
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.options-control textarea {
+  resize: vertical;
+  min-height: 100px;
+  min-width: 443px;
+  padding: 10px;
+  line-height: 1.8;
+}
+.options-control-title {
+  display: block;
+  line-height: 30px;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+.options-control-reset {
+  position: relative;
+  top: 1px;
+  color: #ccc;
+  z-index: 9;
+}
+
+.options-container.options-container-tabs {
+  margin: -7px -12px -12px;
+  background: #222;
+  padding: 0;
+  position: relative;
+  padding-left: 200px;
+}
+.options-container.options-container-tabs *:focus,
+.options-container.options-container-tabs *:active {
+  outline: none;
+  box-shadow: none;
+}
+.options-container.options-container-tabs .ui-tabs-nav {
+  position: absolute;
+  width: 200px;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+.options-container.options-container-tabs .ui-tabs-nav li {
+  margin-bottom: 0;
+}
+.options-container.options-container-tabs .ui-tabs-nav li a {
+  color: #111;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+  outline: none;
+  color: #fff;
+  line-height: 30px;
+}
+.options-container.options-container-tabs .ui-tabs-nav li.ui-tabs-active a {
+  background: #42c232;
+}
+.options-container.options-container-tabs .options-container-content {
+  background: #fff;
+  min-height: 360px;
+  padding: 0 50px 50px 50px;
+  display: inline-block;
+  width: 100%;
+}
+#poststuff .options-container.options-container-tabs .options-control > h3 {
+  padding: 15px 50px;
+  border: none;
+  margin: 0 -50px;
+  background: #eee;
+  cursor: default;
+}
+#poststuff .options-container .options-control > h3 {
+  padding: 7px 12px;
+  margin-left: -12px;
+  margin-right: -12px;
+  border: none;
+  background: #eee;
+  border:none;
+  cursor: default;  
+}
+.options-section-controls {
+  margin: 0;
+}
+.options-section-controls li:last-child {
+  margin-bottom: 0;
+}
+.options-section-controls li .options-control-inputs .button {
+  height: 30px;
+  vertical-align: middle;
+}
+
+/** options-control-switch **/
+.options-control-switcher input {
+  display:none;
+}
+.options-control-switcher .options-control-title {
+  color: #ddd;
+}
+.options-control-switcher.active .options-control-title {
+  color: #444;
+}
+.options-control-switcher .options-control-indicator {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  border-radius: 100px;
+  background: #eee;
+}
+.options-control-switcher .options-control-indicator span {
+  content:'';
+  display: block;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  left: 0;
+  background: #fff;
+  border-radius: 100%;
+  margin: 2px;
+  box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.options-control-switcher .options-control-indicator span:before {
+  content:'';
+  display: inline-block;
+  width: 2px;
+  height: 12px;
+  border: 1px solid #f2f2f2;
+  border-top: none;
+  border-bottom: none;
+  margin-top: 7px;
+  margin-left: 11px;
+}
+.options-control-switcher input:checked + .options-control-indicator {
+  background: #a0ce4e;
+}
+.options-control-switcher input:checked + .options-control-indicator span {
+  left: 20px;
+}
+
+/** options-control-checkboxes **/
+.options-control-checkboxes .options-control-inputs label {
+  display: block;
+}
+
+/** options-control-mediapicker **/
+.options-control-media-picker a {
+  display:block;
+  text-decoration: none;
+}
+.options-control-media-picker a span:first-child {
+  color: #ccc;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.options-control-media-picker .button-browse {
+  position: relative;
+  background: #1e8cbe;
+  border:none;
+  box-shadow: none;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-indent: -9999px; 
+  border-radius: 2px;
+}
+.options-control-media-picker .button-browse:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f093";
+  text-indent: 0;
+  left: 9px;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+.options-control-media-picker .upload-dropzone {
+  text-align: center;
+  border: 2px dashed #ccc;
+  padding: 30px;
+}
+.options-control-media-picker .upload-dropzone.drag-over {
+  background: #ddd;
+  border-color: #333;
+}
+.options-control-media-picker .upload-dropzone img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.options-control-media-picker .remove {
+  margin-top: 10px;
+  display: none;
+}
+.options-control-media-picker.has-image .upload-dropzone {
+  background: #eee;
+}
+.options-control-media-picker.has-image .remove {
+  display: inline-block;
+}
+
+/** options-control-mediapicker **/
+.options-control-image-picker a {
+  display:block;
+  text-decoration: none;
+}
+.options-control-image-picker a span:first-child {
+  color: #ccc;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.options-control-image-picker .button-browse {
+  position: relative;
+  background: #1e8cbe;
+  border:none;
+  box-shadow: none;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-indent: -9999px; 
+  border-radius: 2px;
+}
+.options-control-image-picker .button-browse:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f093";
+  text-indent: 0;
+  left: 9px;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+.options-control-image-picker .upload-dropzone {
+  text-align: center;
+  border: 2px dashed #ccc;
+  padding: 30px;
+}
+.options-control-image-picker .upload-dropzone.drag-over {
+  background: #ddd;
+  border-color: #333;
+}
+.options-control-image-picker .upload-dropzone img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.options-control-image-picker .remove {
+  margin-top: 10px;
+  display: none;
+}
+.options-control-image-picker.has-image .upload-dropzone {
+  background: #eee;
+}
+.options-control-image-picker.has-image .remove {
+  display: inline-block;
+}
+
+/** options-control-dimension **/
+.options-control-dimension .options-control-inputs {
+  clear: left;
+}
+.options-control-dimension .options-control-inputs label {
+  float: left;
+  margin-right: 20px;
+}
+.options-control-dimension .options-control-inputs label span {
+  display: block;
+  margin-bottom: 3px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+/** options-control-select **/
+.options-control-dropdown-sidebars .options-control-inputs label,
+.options-control-dropdown .options-control-inputs label {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
+  width: 200px;
+}
+.options-control-dropdown-sidebars .options-control-preview,
+.options-control-dropdown .options-control-preview {
+  line-height: 28px;
+  padding: 0 45px 0 10px;
+  width: 100%;
+}
+.options-control-dropdown-sidebars .options-control-preview:after,
+.options-control-dropdown .options-control-preview:after {
+  font-family: FontAwesome;
+  content: "\f0dc";
+  font-size: 14px;
+  position: absolute;
+  right: 12px;
+  color: #ccc;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+}
+.options-control-dropdown-sidebars .options-control-preview:before,
+.options-control-dropdown .options-control-preview:before {
+  content: "";
+  width: 1px;
+  height: 15px;
+  background: #ddd;
+  position: absolute;
+  right: 30px;
+  top: 7px;
+}
+.options-control-dropdown-sidebars select,
+.options-control-dropdown select {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  top: 0;
+}
+
+/** options-control-colorpicker **/
+.options-control-color-picker input[type="text"] {
+  width: 70px;
+  vertical-align: top;
+  margin: 0;
+}
+.options-control-color-picker button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-indent: 100%;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,.2);
+  cursor: pointer;
+}
+.options-control-color-picker .options-control-inputs {
+  position: relative;
+}
+.options-control-color-picker .colorpicker-panel {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 33px;
+}
+.options-control-color-picker.active .colorpicker-panel {
+  display: block;
+}
+.options-control-color-picker .colorpicker-panel .colpick {
+  border-radius: 2px;
+  border-color: #ddd;
+  background: #fff;
+  width: 239px;
+}
+.options-control-color-picker .colorpicker-panel .colpick_hue {
+  left: 205px;
+  height: 187px;
+}
+.options-control-color-picker .colorpicker-panel .colpick_color,
+.options-control-color-picker .colorpicker-panel .colpick_color_overlay1,
+.options-control-color-picker .colorpicker-panel .colpick_color_overlay2 {
+  width: 185px;
+  height: 185px;
+}
+.options-control-color-picker .colorpicker-panel .colpick_new_color,
+.options-control-color-picker .colorpicker-panel .colpick_hex_field {
+  display: none;
+}
+
+/** options-control-radioimages **/
+.options-control-radio-images .options-control-field {
+  clear: left;
+}
+.options-control-radio-images .options-control-field input[type="radio"] {
+  display: none;
+}
+.options-control-radio-images .options-control-field span {
+  float: left;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+.options-control-radio-images .options-control-field span img {
+  opacity: 0.15;
+}
+.options-control-radio-images .options-control-field span:hover:after,
+.options-control-radio-images .options-control-field span:hover:before {
+  display: block;
+}
+.options-control-radio-images .options-control-field span:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  left: 0;
+  bottom: 110%;
+  padding: 7px 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.options-control-radio-images .options-control-field span:before {
+  border-top: 7px solid rgba(0,0,0,0.8);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -7px;
+  display: none;
+}
+.options-control-radio-images .options-control-field input[type="radio"]:checked + span img {
+  opacity: 1;
+}
+
+/** options-control-radiobuttons **/
+.options-control-radio-buttons .options-control-inputs {
+  display: inline-block;
+  color: #fff;
+  width: 100%;
+}
+.options-control-radio-buttons .options-control-inputs label {
+  float: left;
+  margin-right: -1px;
+}
+.options-control-radio-buttons .options-control-inputs label input {
+  display: none;
+}
+.options-control-radio-buttons .options-control-inputs label:first-child span {
+  border-radius: 2px 0 0 2px;
+}
+.options-control-radio-buttons .options-control-inputs label:last-child span {
+  border-radius: 0 2px 2px 0;
+}
+.options-control-radio-buttons .options-control-inputs label input:checked + span {
+  background: #a0ce4e;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,.1) inset;
+}
+.options-control-radio-buttons .options-control-inputs label span {
+  height: 32px;
+  line-height: 29px;
+  text-align: center;
+  display: block;
+  background: #ddd;
+  border:1px solid rgba(0,0,0,0.1);
+  padding: 0 10px;
+}
+
+/** options-control-spinner **/
+.options-control-spinner input {
+  vertical-align: middle;
+}
+.options-control-spinner .ui-spinner {
+  display: block;
+}
+.options-control-spinner a.ui-spinner-button {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px 0 0 2px;
+  text-indent: -9999px;
+  display: inline-block;
+  margin: 0 0 0 3px;
+  cursor: pointer;
+  position: relative;
+}
+.options-control-spinner a.ui-spinner-button.ui-spinner-down {
+  border-radius: 0 2px 2px 0;
+  margin-left: -1px;
+}
+.options-control-spinner a.ui-spinner-button.ui-spinner-down:before {
+  display: none;
+}
+.options-control-spinner a.ui-spinner-button:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: #999;
+  top: 13px;
+  right: 9px;
+}
+.options-control-spinner a.ui-spinner-button:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background: #999;
+  top: 9px;
+  right: 13px;
+}
+
+/**  options-control-widgetslayout **/
+.options-control-widgets-layout .columns-count {
+  margin: 0 0 20px 0;
+  display: inline-block;
+  color: #fff;
+}
+.options-control-widgets-layout .columns-count label {
+  float: left;
+  margin-right: -1px;
+}
+.options-control-widgets-layout .columns-count input {
+  display: none;
+}
+.options-control-widgets-layout .columns-count span {
+  height: 32px;
+  width: 32px;
+  line-height: 29px;
+  text-align: center;
+  display: block;
+  background: #ddd;
+  border:1px solid rgba(0,0,0,0.1);
+}
+.options-control-widgets-layout .columns-count input:checked + span {
+  background: #a0ce4e;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,.1) inset;
+}
+.options-control-widgets-layout .options-control-layouts > div {
+  display: none;
+}
+.options-control-widgets-layout .options-control-layouts > div.active {
+  display: block;
+}
+.options-control-widgets-layout .options-control-inputs {
+  clear: left;
+}
+.options-control-widgets-layout .ui-resizable-e {
+  position: absolute;
+  width: 10px;
+  top: 0;
+  bottom: 0;
+  right: -5px;
+  cursor: col-resize;
+}
+.options-control-widgets-layout .widgetslayout-row {
+  background: #eee;
+}
+.options-control-widgets-layout .widgetslayout-column,
+.options-control-widgets-layout .widgetslayout-column[data-width="1"] {
+  float: left;
+  width: 8.333333333333334%;
+  border: 1px dashed #ccc;
+  border-right: none;
+  position: relative;
+  background: #fff;
+}
+.options-control-widgets-layout .widgetslayout-column:last-child {
+  border-right: 1px dashed #ccc;
+}
+.options-control-widgets-layout .widgetslayout-column span {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="2"] {
+  width: 16.666666666666668%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="3"] {
+  width: 25%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="4"] {
+  width: 33.333333333333336%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="5"] {
+  width: 41.666666666666664%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="6"] {
+  width: 50%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="7"] {
+  width: 58.333333333333336%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="8"] {
+  width: 66.66666666666667%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="9"] {
+  width: 75%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="10"] {
+  width: 83.33333333333333%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="11"] {
+  width: 91.66666666666667%;
+}
+.options-control-widgets-layout .widgetslayout-column[data-width="12"] {
+  width: 100%;
+}
+
+/** options-control-background **/
+.options-control-background .background-color {
+  margin-bottom: 20px;
+}
+.options-control-background .background-type {
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.options-control-background .background-type label {
+  float: left;
+  margin-right: -1px;
+}
+.options-control-background .background-type label input {
+  display: none;
+}
+.options-control-background .background-type label:first-child span {
+  border-radius: 2px 0 0 2px;
+}
+.options-control-background .background-type label:last-child span {
+  border-radius: 0 2px 2px 0;
+}
+.options-control-background .background-type label input:checked + span {
+  background: #a0ce4e;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0,0,0,.1) inset;
+}
+.options-control-background .background-type label span {
+  height: 32px;
+  line-height: 29px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  background: #ddd;
+  border:1px solid rgba(0,0,0,0.1);
+}
+
+.options-control-background .background-patterns:after,
+.options-control-background .background-patterns:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.options-control-background .background-patterns,
+.options-control-background .background-custom {
+  display: none;
+}
+.options-control-background .background-patterns.active,
+.options-control-background .background-custom.active {
+  display: block;
+}
+.options-control-background .background-patterns label,
+.options-control-background .background-patterns label span {
+  display: block;
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin: 0 4px 4px 0;
+  background: #eee;
+}
+.options-control-background .background-patterns input {
+  display: none;
+}
+.options-control-background .background-patterns input:checked + span {
+  position: relative;
+}
+.options-control-background .background-patterns input:checked + span:after {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: 5px solid #1e8cbe;
+  content: "";
+  background: none;
+  left: 0;
+  top: 0;
+}
+.options-control-background .background-patterns input:checked + span:before {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #fff;
+  content: "";
+  background: none;
+  left: 5px;
+  top: 5px;
+}
+
+.options-control-background .background-custom > div {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 15px;
+}
+.options-control-background .background-custom > div:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.options-control-background .background-custom .background-position .options-control-inputs {
+  display: inline-block;
+  width: 96px;
+  position: relative;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs,
+.options-control-background .background-custom .background-style .options-control-inputs {
+  display: inline-block;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label span,
+.options-control-background .background-custom .background-repeat .options-control-inputs label span,
+.options-control-background .background-custom .background-style .options-control-inputs label span {
+  display: block;
+  float: left;
+  text-indent: -9999px;
+  width: 31px;
+  height: 31px;
+  background-color: #ccc;
+  background-image: url(../img/background-selector.png);
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-box-sizing:content-box;
+     -moz-box-sizing:content-box;
+          box-sizing:content-box;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label span:after,
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:after,
+.options-control-background .background-custom .background-style .options-control-inputs label span:after  {
+  content: attr(data-title);
+  position: absolute;
+  width: 110px;
+  text-align: center;
+  left: 50%;
+  margin-left: -55px;
+  bottom: 107px;
+  padding: 7px 0;
+  background: rgba(0,0,0,0.8);
+  text-indent: 0;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+  display: none; 
+}
+.options-control-background .background-custom .background-position .options-control-inputs label span:before,
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:before,
+.options-control-background .background-custom .background-style .options-control-inputs label span:before  {
+  border-top: 7px solid rgba(0,0,0,0.8);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -7px;
+  display: none;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label span:hover:after,
+.options-control-background .background-custom .background-position .options-control-inputs label span:hover:before,
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:hover:after,
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:hover:before,
+.options-control-background .background-custom .background-style .options-control-inputs label span:hover:after,
+.options-control-background .background-custom .background-style .options-control-inputs label span:hover:before  {
+  display: block;
+}
+.options-control-background .background-custom .background-position .options-control-inputs input,
+.options-control-background .background-custom .background-repeat .options-control-inputs input,
+.options-control-background .background-custom .background-style .options-control-inputs input  {
+  display: none;
+}
+.options-control-background .background-custom .background-position .options-control-inputs input:checked + span,
+.options-control-background .background-custom .background-repeat .options-control-inputs input:checked + span,
+.options-control-background .background-custom .background-style .options-control-inputs input:checked + span {
+  background-color: #1e8cbe;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label span,
+.options-control-background .background-custom .background-style .options-control-inputs label span {
+  position: relative;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:after,
+.options-control-background .background-custom .background-style .options-control-inputs label span:after {
+  bottom: 38px;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label span:before,
+.options-control-background .background-custom .background-style .options-control-inputs label span:before {
+  bottom: 100%;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-top-left span {
+  background-position: 0 0;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-top-center span {
+  background-position: -31px 0;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-top-right span {
+  background-position: -62px 0;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-middle-left span {
+  background-position: 0 -31px;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-middle-center span {
+  background-position: -31px -31px;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-middle-right span {
+  background-position: -62px -31px;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-bottom-left span {
+  background-position: 0 -62px;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-bottom-center span {
+  background-position: -31px -62px;
+}
+.options-control-background .background-custom .background-position .options-control-inputs label.background-bottom-right span {
+  background-position: -62px -62px;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label.background-no-repeat span {
+  background-position: -93px 0;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label.background-repeat-x span {
+  background-position: -124px 0;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label.background-repeat-y span {
+  background-position: -155px 0;
+}
+.options-control-background .background-custom .background-repeat .options-control-inputs label.background-repeat-all span {
+  background-position: -186px 0;
+}
+.options-control-background .background-custom .background-style .options-control-inputs label.background-fixed span {
+  background-position: -93px -31px;
+}
+.options-control-background .background-custom .background-style .options-control-inputs label.background-scroll span {
+  background-position: -124px -31px;
+}
+.options-control-background .background-custom .background-style .options-control-inputs label.background-cover span {
+  background-position: -155px -31px;
+}
+
+/** options-control-imagesgallery **/
+.options-control-imagesgallery .images-list {
+  display: inline-block;
+  width: 100%;
+}
+.options-control-imagesgallery .images-list li {
+  float: left;
+  margin: 0 20px 20px 0;
+  position: relative;
+  background: #1e8cbe;
+  padding: 5px;
+}
+.options-control-imagesgallery .images-list li img {
+  vertical-align: text-top;
+  cursor: move;
+  border: 1px solid #fff;
+}
+.options-control-imagesgallery .images-list li .button-remove {
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  text-indent: -9999px;
+  width: 28px;
+  height: 28px;
+  background: #1e8cbe;
+  border: 1px solid #1e8cbe;
+  box-shadow: 0px 0px 0px 1px #fff inset;
+  border-radius: 0;
+}
+.options-control-imagesgallery .images-list li .button-remove:hover:after {
+  content: "\f068";
+  left: 7px;
+  top: 1px;
+}
+.options-control-imagesgallery .images-list li .button-remove:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f00c";
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  text-indent: 0;
+  color: #fff;
+  top: 0;
+  left: 6px;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.3);
+}
+
+/** options-control-medialist **/
+.options-control-media-list .media-items {
+  display: inline-block;
+  width: 100%;
+}
+.options-control-media-list .media-items li {
+  float: left;
+  margin: 0 20px 20px 0;
+  position: relative;
+  background: #1e8cbe;
+  padding: 5px;
+  cursor: move;
+}
+.options-control-media-list .media-items li img {
+  vertical-align: text-top;
+  cursor: move;
+  border: 1px solid #fff;
+}
+.options-control-media-list .media-items li .button-remove {
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  text-indent: -9999px;
+  width: 28px;
+  height: 28px;
+  background: #1e8cbe;
+  border: 1px solid #1e8cbe;
+  box-shadow: 0px 0px 0px 1px #fff inset;
+  border-radius: 0;
+}
+.options-control-media-list .media-items li .button-edit {
+  position: absolute;
+  border-radius: 0;
+  bottom: 5px;
+  right: 5px;
+  background: #1e8cbe;
+  height: auto;
+  padding: 5px 10px;
+  font-size: 11px;
+  line-height: 100%;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  display: none;
+}
+.options-control-media-list .media-items li:hover .button-edit {
+  display: block;
+}
+.options-control-media-list .media-items li .button-edit:hover {
+  text-decoration: underline;
+}
+.options-control-media-list .media-items li .button-remove:hover:after {
+  content: "\f068";
+  left: 7px;
+  top: 1px;
+}
+.options-control-media-list .media-items li .button-remove:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f00c";
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  text-indent: 0;
+  color: #fff;
+  top: 0;
+  left: 6px;
+  text-shadow: 0 1px 0px rgba(0,0,0,0.3);
+}
+.options-control-media-list .media-items .thumbnail img {
+  max-width: 127px;
+}
+.options-control-media-list .media-items .video-item .thumbnail {
+  width: 152px;
+  height: 127px;
+  background: #ddd;
+  position: relative;
+}
+.options-control-media-list .media-items .video-item .thumbnail:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f03d";
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+   top: 55px;
+   left: 40px;
+   font-size: 4em;
+   color: #aaa;
+}
+.options-control-media-list .media-items .video-item .thumbnail img {
+  display: none;
+}
+.options-control-media-list .media-item.image-item .button-edit {
+  display: none !important;
+}
+.op-dialog {
+  background: #fff;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0px 10px rgba(0,0,0,0.15);
+  z-index: 9999;
+}
+.op-dialog .ui-dialog-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  background: #eee;
+  padding: 10px 20px;
+  margin: -20px -20px 10px -20px;
+}
+.op-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  border:1px solid #ccc;
+  box-shadow: none;
+  padding: 0;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.op-dialog .ui-dialog-titlebar-close:hover {
+  border-color: #333;
+  background: #333;
+}
+.op-dialog .ui-dialog-titlebar-close:hover:after {
+  color: #fff;
+}
+.op-dialog .ui-dialog-titlebar-close:after {
+  content: "\f00d";
+  position: absolute;
+  text-indent: 0;
+  font-family: FontAwesome;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+  right: 6px;
+  top: 3px;
+  color: #ccc;
+}
+.op-dialog .ui-dialog-buttonset button {
+  background: #1E8CBE;
+  border:none;
+  box-shadow: none;
+  color: #fff;
+  margin: 10px 0 0 ;
+  cursor: pointer;
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+}
+.wp-core-ui .op-dialog .button {
+  height: 30px;
+  vertical-align: middle;
+}
+.ui-widget-overlay {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+
+.options-control-editor .wp-editor-tabs,
+.options-control-editor .wp-editor-tabs * {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+}
+
+/** options-control-socialicons */
+.options-control-social-icons .icons {
+  display: block;
+}
+.options-control-social-icons .icons:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.options-control-social-icons .item-properties {
+  display: none;
+  clear: both;
+  background: #fff;
+  padding: 20px 15px;
+  width: 98.5%;
+  height: auto;
+  color: #555;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: left;
+}
+.options-control-social-icons .item-properties .input-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+.options-control-social-icons .item-properties input[type="text"] {
+  float: left;
+  width: 83.5%;
+  margin: 0;
+}
+.options-control-social-icons .item-properties button.confirm {
+  float: right;
+  border:none;
+  box-shadow: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  background: #1e8cbe;
+}
+.options-control-social-icons .active-properties .item-properties {
+  display: block;
+}
+.options-control-social-icons li {
+  display: block;
+  position: relative;
+  width: 19%;
+  height: 45px;
+  line-height: 43px;
+  text-align: center;
+  float: left;
+  margin: 0 2px 2px 0;
+  font-size: 28px;
+  cursor: pointer;
+  color: #ddd;
+  background: #f4f4f4;
+  border:1px dashed #ddd;
+}
+.options-control-social-icons li.active {
+  background: #fff;
+  border-bottom: none;
+  height: 48px;
+  z-index: 9;
+  margin-bottom: -2px;
+}
+.options-control-social-icons a:focus,
+.options-control-social-icons a:active {
+  outline: none;
+}
+.options-control-social-icons li[data-link] {
+  background: #fff;
+}
+.options-control-social-icons li[data-link][data-title="Behance"] {
+  color: #007af7;
+}
+.options-control-social-icons li[data-link][data-title="Bitcoin"] {
+  color: #fea33f;
+}
+.options-control-social-icons li[data-link][data-title="BitBucket"] {
+  color: #246590;
+}
+.options-control-social-icons li[data-link][data-title="Codepen"] {
+  color: #000;
+}
+.options-control-social-icons li[data-link][data-title="Delicious"] {
+  color: #3399ff;
+}
+.options-control-social-icons li[data-link][data-title="DeviantArt"] {
+  color: #429976;
+}
+.options-control-social-icons li[data-link][data-title="Digg"] {
+  color: #196c9e;
+}
+.options-control-social-icons li[data-link][data-title="Dribbble"] {
+  color: #f86499;
+}
+.options-control-social-icons li[data-link][data-title="Facebook"] {
+  color: #496fa4;
+}
+.options-control-social-icons li[data-link][data-title="Flickr"] {
+  color: #fa3892;
+}
+.options-control-social-icons li[data-link][data-title="Foursquare"] {
+  color: #35cbe7;
+}
+.options-control-social-icons li[data-link][data-title="Github"] {
+  color: #008bbf;
+}
+.options-control-social-icons li[data-link][data-title="Google+"] {
+  color: #e6694a;
+}
+.options-control-social-icons li[data-link][data-title="Instagram"] {
+  color: #5f92b2;
+}
+.options-control-social-icons li[data-link][data-title="JSFiddle"] {
+  color: #000;
+}
+.options-control-social-icons li[data-link][data-title="LinkedIn"] {
+  color: #008ec1;
+}
+.options-control-social-icons li[data-link][data-title="Pinterest"] {
+  color: #da5b4c;
+}
+.options-control-social-icons li[data-link][data-title="Reddit"] {
+  color: #ff5234;
+}
+.options-control-social-icons li[data-link][data-title="Skype"] {
+  color: #3cd2f2;
+}
+.options-control-social-icons li[data-link][data-title="Slack"] {
+  color: #439fe0;
+}
+.options-control-social-icons li[data-link][data-title="SoundCloud"] {
+  color: #ff722c;
+}
+.options-control-social-icons li[data-link][data-title="Spotify"] {
+  color: #89bd4d;
+}
+.options-control-social-icons li[data-link][data-title="Stach Overflow"] {
+  color: #fd8a07;
+}
+.options-control-social-icons li[data-link][data-title="Steam"] {
+  color: #6d6862;
+}
+.options-control-social-icons li[data-link][data-title="Stumbleupon"] {
+  color: #00b87a;
+}
+.options-control-social-icons li[data-link][data-title="Tumblr"] {
+  color: #34586f;
+}
+.options-control-social-icons li[data-link][data-title="Twitter"] {
+  color: #1cb7eb;
+}
+.options-control-social-icons li[data-link][data-title="Vimeo"] {
+  color: #00bdee;
+}
+.options-control-social-icons li[data-link][data-title="Youtube"] {
+  color: #f36251;
+}
+.options-control-social-icons li[data-link][data-title="RSS"] {
+  color: #f09040;
+}
+
+/**
+ * Code editor control
+ */
+.options-control-code .CodeMirror {
+  border: 1px solid #ddd;
+}
+.options-control-code .CodeMirror-gutters {
+  border-right-style: dotted;
+  background: transparent;
+}
+
+/**
+ * Global metaboxes styles
+ */
+.postbox .options-container {
+  margin-top: -7px;
+}
+
+.postbox .op-options,
+.postbox .op-options > li {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Dialog
+ */
+.op-dialog {
+  background: #fff;
+}

@@ -1,0 +1,107 @@
+#off-canvas {
+	position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: @off-canvas-width;
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.3s;
+       -moz-transition: visibility 0s 0.3s;
+            transition: visibility 0s 0.3s;
+	.off-canvas-wrap {
+	  	height: 100%;
+	    overflow-y: auto;
+	    -webkit-overflow-scrolling: touch;
+	    padding: 50px;
+	    /* Force Hardware Acceleration in WebKit */
+	    -webkit-transform: translateZ(0);
+	       -moz-transform: translateZ(0);
+	        -ms-transform: translateZ(0);
+	         -o-transform: translateZ(0);
+	            transform: translateZ(0);
+	    -webkit-backface-visibility: hidden;
+	            backface-visibility: hidden;
+	    -webkit-transform: translateX(50%);
+	       -moz-transform: translateX(50%);
+	        -ms-transform: translateX(50%);
+	         -o-transform: translateX(50%);
+	            transform: translateX(50%);
+	    -webkit-transition: -webkit-transform 0.3s;
+	       -moz-transition: -moz-transform 0.3s;
+	            transition: transform 0.3s;
+	    -webkit-transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+	       -moz-transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+	            transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+	}
+}
+.off-canvas-active {
+	#off-canvas {
+		visibility: visible;
+		-webkit-transition: visibility 0s 0s;
+		   -moz-transition: visibility 0s 0s;
+		        transition: visibility 0s 0s;
+		.off-canvas-wrap {
+		  	-webkit-transform: translateX(0);
+			   -moz-transform: translateX(0);
+			    -ms-transform: translateX(0);
+			     -o-transform: translateX(0);
+			        transform: translateX(0);
+			-webkit-transition: -webkit-transform 0.3s;
+			   -moz-transition: -moz-transform 0.3s;
+			        transition: transform 0.3s;
+			-webkit-transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+			   -moz-transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+			        transition-timing-function: cubic-bezier(0.4, 0.01, 0.3, 0.3);
+		}
+	}
+	#site-header {
+		#masthead {
+			.menu-extra {
+				.off-canvas {
+					a {
+						i {
+							&:before {
+								content: "\f054";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#site-wrapper {
+	position: relative;
+	z-index: 2;
+	/* fix bug on iOS */
+	//overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	padding: 0;
+	background: @body-background;
+	/* Force Hardware Acceleration in WebKit */
+	/*
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0); */
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+       -moz-transition:    -moz-transform 0.3s;
+            transition:         transform 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0.01, 0.2, 0.4);
+       -moz-transition-timing-function: cubic-bezier(0.4, 0.01, 0.2, 0.4);
+            transition-timing-function: cubic-bezier(0.4, 0.01, 0.2, 0.4);
+}
+.off-canvas-active {
+	#site-wrapper {
+		-webkit-transform: translateX(-@off-canvas-width);
+           -moz-transform: translateX(-@off-canvas-width);
+            -ms-transform: translateX(-@off-canvas-width);
+             -o-transform: translateX(-@off-canvas-width);
+                transform: translateX(-@off-canvas-width);
+	}
+}

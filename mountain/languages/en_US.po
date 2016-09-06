@@ -1,0 +1,2631 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mountain 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-25 14:05+0700\n"
+"PO-Revision-Date: Mon May 23 2016 01:49:57 GMT+0700 (ICT)\n"
+"Last-Translator: admin <binhcoder@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: wordpress/404.php:18
+msgid "Looks Like Something Went Wrong!"
+msgstr ""
+
+#: wordpress/404.php:19
+msgid ""
+"The page you were looking for is not here. Maybe you want to perform a "
+"search?"
+msgstr ""
+
+#: wordpress/comments.php:22
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/comments.php:29 wordpress/comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: wordpress/comments.php:30 wordpress/comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: wordpress/comments.php:31 wordpress/comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: wordpress/comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: wordpress/comments.php:69 wordpress/comments.php:70
+msgid "Name"
+msgstr ""
+
+#: wordpress/comments.php:74 wordpress/comments.php:75
+msgid "Email"
+msgstr ""
+
+#: wordpress/comments.php:79 wordpress/comments.php:80
+msgid "Website"
+msgstr ""
+
+#: wordpress/functions.php:25
+msgid ""
+"Sorry! Your server does not meet the minimum requirements, please upgrade "
+"PHP version to 5.3 or higher"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:36
+#: wordpress/includes/classes/mountain-advanced.php:41
+msgid "Custom CSS"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:53
+msgid "Custom Javascript"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:72
+msgid "Advanced Settings"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:73
+msgid "Advanced"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:91
+msgid "Advanced Theme Settings"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:98
+msgid "Save Settings"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-advanced.php:149
+msgid "Updated!"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:51
+#: wordpress/includes/classes/mountain-woocommerce.php:194
+#: wordpress/includes/classes/mountain-woocommerce.php:237
+#: wordpress/includes/customize-controls.php:324
+msgid "Sidebar Position"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:52
+#: wordpress/includes/customize-controls.php:320
+msgid "Select the position of sidebar that you wish to display."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:60
+#: wordpress/includes/classes/mountain-page-options.php:140
+#: wordpress/includes/classes/mountain-page-options.php:158
+msgid "Default Option"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:61
+#: wordpress/includes/classes/mountain-projects.php:157
+#: wordpress/includes/classes/mountain-projects.php:265
+#: wordpress/includes/classes/mountain-team-members.php:149
+#: wordpress/includes/classes/mountain-team-members.php:216
+#: wordpress/includes/classes/mountain-woocommerce.php:200
+#: wordpress/includes/classes/mountain-woocommerce.php:242
+#: wordpress/includes/customize-controls.php:329
+#: wordpress/includes/customize-controls.php:685
+#: wordpress/includes/customize-controls.php:787
+#: wordpress/includes/customize-controls.php:1011
+#: wordpress/includes/customize-controls.php:1120
+msgid "No Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:62
+msgid "Left Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:63
+msgid "Right Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:69
+msgid "Custom Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:80
+#: wordpress/includes/customize-controls.php:355
+msgid "Page Title"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:81
+#: wordpress/includes/customize-controls.php:356
+msgid "In this section you can turn on/off or modify style for the Page Title."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:86
+msgid "Enable Custom Page Title"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:93
+msgid "Display Title Bar On This Page"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:100
+msgid "Page Header Background"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:107
+#: wordpress/includes/customize-controls.php:613
+msgid "Text Color"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:114
+#: wordpress/includes/customize-controls.php:383
+msgid "Padding"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:119
+#: wordpress/includes/customize-controls.php:387
+msgid "Top"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:120
+#: wordpress/includes/customize-controls.php:388
+msgid "Bottom"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:131
+msgid "Breadcrumbs"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:132
+msgid "In this section you can turn on/off or modify style for the Breadcrumbs."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:141
+msgid "Enabled"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:142
+msgid "Disabled"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:149
+msgid "Navigator"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:150
+msgid "Just select your menu that you wish assign it to the location on the theme."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:180
+msgid "Load One Page Navigator Script"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:186
+msgid "Page Options"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-page-options.php:193
+#: wordpress/includes/classes/mountain-projects.php:91
+#: wordpress/includes/customize-sections.php:17
+msgid "General"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:31
+msgid "Featured Gallery"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:32
+msgid ""
+"Add images to create a slider for this post, post format \"Gallery\" must be "
+"checked."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:46
+msgid "Video URL"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:47
+msgid ""
+"Add an URL that linked to a video, it can be Youtube, Vimeo, ... The added "
+"video will be displayed on top of the page."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:60
+msgid "Audio URL"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:61
+msgid ""
+"This field will be applied when post format \"Audio\" is checked. A audio "
+"player will be displayed on top of the post."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:74
+msgid "External Link"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:75
+msgid "When post format \"Link\" is selected you need provide a link to this field."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-post-options.php:85
+#: wordpress/includes/classes/mountain-post-options.php:92
+msgid "Post Options"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:75
+msgid "Projects"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:97
+msgid "Project Archive"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:103
+msgid "Project Single"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:109
+#: wordpress/includes/classes/mountain-projects.php:344
+msgid "Related Projects"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:129
+msgid "Projects Page"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:135
+msgid "Category Permalink Base"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:142
+msgid "Tag Permalink Base"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:152
+#: wordpress/includes/classes/mountain-team-members.php:144
+#: wordpress/includes/customize-controls.php:680
+#: wordpress/includes/customize-controls.php:1006
+msgid "List Sidebar Position"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:161
+#: wordpress/includes/classes/mountain-projects.php:269
+#: wordpress/includes/classes/mountain-team-members.php:153
+#: wordpress/includes/classes/mountain-team-members.php:220
+#: wordpress/includes/classes/mountain-woocommerce.php:204
+#: wordpress/includes/classes/mountain-woocommerce.php:246
+#: wordpress/includes/customize-controls.php:333
+#: wordpress/includes/customize-controls.php:689
+#: wordpress/includes/customize-controls.php:791
+#: wordpress/includes/customize-controls.php:1015
+#: wordpress/includes/customize-controls.php:1124
+msgid "Sidebar Left"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:165
+#: wordpress/includes/classes/mountain-projects.php:273
+#: wordpress/includes/classes/mountain-team-members.php:157
+#: wordpress/includes/classes/mountain-team-members.php:224
+#: wordpress/includes/classes/mountain-woocommerce.php:208
+#: wordpress/includes/classes/mountain-woocommerce.php:250
+#: wordpress/includes/customize-controls.php:337
+#: wordpress/includes/customize-controls.php:693
+#: wordpress/includes/customize-controls.php:795
+#: wordpress/includes/customize-controls.php:1019
+#: wordpress/includes/customize-controls.php:1128
+msgid "Sidebar Right"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:174
+msgid "Project List Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:180
+#: wordpress/includes/customize-controls.php:651
+#: wordpress/includes/customize-controls.php:1034
+msgid "List Layout"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:185
+#: wordpress/includes/classes/mountain-projects.php:298
+#: wordpress/includes/classes/mountain-projects.php:366
+#: wordpress/includes/classes/mountain-projects.php:546
+#: wordpress/includes/customize-controls.php:660
+#: wordpress/includes/customize-controls.php:843
+#: wordpress/includes/customize-controls.php:1039
+#: wordpress/includes/customize-controls.php:1168
+msgid "Grid"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:189
+#: wordpress/includes/customize-controls.php:1043
+msgid "Masonry Grid"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:193
+msgid "Gallery"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:197
+msgid "Justified Grid"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:206
+#: wordpress/includes/customize-controls.php:669
+#: wordpress/includes/customize-controls.php:1056
+msgid "Grid Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:209
+#: wordpress/includes/classes/mountain-projects.php:309
+#: wordpress/includes/classes/mountain-projects.php:378
+#: wordpress/includes/classes/mountain-projects.php:557
+#: wordpress/includes/classes/mountain-projects.php:661
+#: wordpress/includes/customize-controls.php:672
+#: wordpress/includes/customize-controls.php:859
+#: wordpress/includes/customize-controls.php:1059
+#: wordpress/includes/customize-controls.php:1182
+msgid "2 Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:210
+#: wordpress/includes/classes/mountain-projects.php:310
+#: wordpress/includes/classes/mountain-projects.php:379
+#: wordpress/includes/classes/mountain-projects.php:558
+#: wordpress/includes/classes/mountain-projects.php:662
+#: wordpress/includes/customize-controls.php:673
+#: wordpress/includes/customize-controls.php:860
+#: wordpress/includes/customize-controls.php:1060
+#: wordpress/includes/customize-controls.php:1183
+msgid "3 Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:211
+#: wordpress/includes/classes/mountain-projects.php:311
+#: wordpress/includes/classes/mountain-projects.php:380
+#: wordpress/includes/classes/mountain-projects.php:559
+#: wordpress/includes/classes/mountain-projects.php:663
+#: wordpress/includes/customize-controls.php:674
+#: wordpress/includes/customize-controls.php:861
+#: wordpress/includes/customize-controls.php:1061
+#: wordpress/includes/customize-controls.php:1184
+msgid "4 Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:212
+#: wordpress/includes/classes/mountain-projects.php:312
+#: wordpress/includes/classes/mountain-projects.php:381
+#: wordpress/includes/classes/mountain-projects.php:560
+#: wordpress/includes/classes/mountain-projects.php:664
+#: wordpress/includes/customize-controls.php:1062
+#: wordpress/includes/customize-controls.php:1185
+msgid "5 Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:219
+#: wordpress/includes/classes/mountain-projects.php:670
+#: wordpress/includes/customize-controls.php:1069
+msgid "Show Items Filter"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:225
+#: wordpress/includes/classes/mountain-team-members.php:172
+#: wordpress/includes/customize-controls.php:743
+#: wordpress/includes/customize-controls.php:1075
+msgid "Pagination Style"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:231
+#: wordpress/includes/classes/mountain-team-members.php:178
+#: wordpress/includes/customize-controls.php:749
+#: wordpress/includes/customize-controls.php:1081
+msgid "Pager"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:235
+#: wordpress/includes/classes/mountain-team-members.php:182
+#: wordpress/includes/customize-controls.php:753
+#: wordpress/includes/customize-controls.php:1085
+msgid "Numeric"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:239
+#: wordpress/includes/classes/mountain-team-members.php:186
+#: wordpress/includes/customize-controls.php:757
+#: wordpress/includes/customize-controls.php:1089
+msgid "Pager & Numeric"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:243
+#: wordpress/includes/classes/mountain-team-members.php:190
+#: wordpress/includes/customize-controls.php:761
+#: wordpress/includes/customize-controls.php:1093
+#: wordpress/templates/blocks/pagination.php:54
+msgid "Load More"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:251
+#: wordpress/includes/classes/mountain-team-members.php:198
+#: wordpress/includes/customize-controls.php:769
+#: wordpress/includes/customize-controls.php:1101
+msgid "Posts Per Page"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:260
+#: wordpress/includes/classes/mountain-team-members.php:211
+#: wordpress/includes/customize-controls.php:782
+#: wordpress/includes/customize-controls.php:1115
+msgid "Single Sidebar Position"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:282
+msgid "Single Project Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:289
+#: wordpress/includes/classes/mountain-projects.php:537
+msgid "Gallery Type"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:294
+#: wordpress/includes/classes/mountain-projects.php:542
+msgid "List"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:306
+#: wordpress/includes/classes/mountain-projects.php:554
+msgid "Gallery Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:319
+#: wordpress/includes/customize-controls.php:810
+msgid "Show Featured Image In Header"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:325
+#: wordpress/includes/customize-controls.php:1143
+msgid "Show Single Navigator"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:335
+msgid "Show Related Projects"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:342
+#: wordpress/includes/classes/mountain-projects.php:621
+msgid "Widget Title"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:350
+msgid "Show Related Items Based On"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:353
+msgid "Tag"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:354
+msgid "Category"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:355
+#: wordpress/includes/classes/mountain-projects.php:725
+msgid "Random"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:356
+msgid "Recent"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:363
+msgid "Related Project Style"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:367
+#: wordpress/includes/classes/mountain-projects.php:647
+#: wordpress/includes/customize-controls.php:1169
+msgid "Grid Masonry"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:368
+#: wordpress/includes/classes/mountain-projects.php:648
+#: wordpress/includes/customize-controls.php:1047
+#: wordpress/includes/customize-controls.php:1170
+msgid "Grid No Margin"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:375
+#: wordpress/includes/customize-controls.php:1179
+msgid "Columns Count"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:377
+#: wordpress/includes/classes/mountain-projects.php:660
+#: wordpress/includes/customize-controls.php:1181
+msgid "1 Column"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:389
+msgid "Number Of Related Projects"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:502
+msgid "Project Settings"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:529
+msgid "Enable Custom Settings"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:622
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:628
+#: wordpress/includes/classes/mountain-projects.php:685
+msgid "Categories"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:629
+msgid ""
+"If you want to narrow output, enter category names here. Note: Only listed "
+"categories will be included."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:635
+#: wordpress/includes/classes/mountain-projects.php:686
+msgid "Tags"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:636
+msgid ""
+"If you want to narrow output, enter tag names here. Note: Only listed tags "
+"will be included."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:642
+msgid "Display Mode"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:646
+msgid "Grid Classic"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:649
+#: wordpress/includes/customize-controls.php:847
+#: wordpress/includes/customize-controls.php:1171
+msgid "Carousel"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:655
+msgid "Columns"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:656
+msgid "The number of columns will be shown"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:674
+#: wordpress/includes/classes/mountain-projects.php:758
+#: wordpress/includes/classes/mountain-projects.php:771
+#: wordpress/includes/classes/mountain-projects.php:797
+#: wordpress/includes/classes/mountain-projects.php:809
+#: wordpress/includes/classes/mountain-projects.php:821
+#: wordpress/includes/classes/mountain-projects.php:871
+msgid "Yes"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:675
+#: wordpress/includes/classes/mountain-projects.php:759
+#: wordpress/includes/classes/mountain-projects.php:772
+#: wordpress/includes/classes/mountain-projects.php:798
+#: wordpress/includes/classes/mountain-projects.php:810
+#: wordpress/includes/classes/mountain-projects.php:822
+#: wordpress/includes/classes/mountain-projects.php:872
+msgid "No"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:681
+msgid "Filter By"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:692
+msgid "Limit"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:693
+msgid "The number of posts will be shown"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:700
+msgid "Offset"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:701
+msgid "The number of posts to pass over"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:708
+msgid "Thumbnail Size"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:709
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or other "
+"sizes defined by current theme. Alternatively enter image size in pixels: "
+"200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:715
+msgid "Order By"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:716
+msgid "Select how to sort retrieved posts."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:720
+msgid "Date"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:721
+msgid "ID"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:722
+msgid "Author"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:723
+msgid "Title"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:724
+msgid "Modified"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:726
+msgid "Comment count"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:727
+msgid "Menu order"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:733
+msgid "Order Direction"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:734
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:738
+msgid "Ascending"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:739
+msgid "Descending"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:745
+msgid "Extra Class"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:746
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:753
+msgid "Autoplay?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:755
+#: wordpress/includes/classes/mountain-projects.php:768
+#: wordpress/includes/classes/mountain-projects.php:780
+#: wordpress/includes/classes/mountain-projects.php:794
+#: wordpress/includes/classes/mountain-projects.php:806
+#: wordpress/includes/classes/mountain-projects.php:818
+msgid "Carousel Options"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:765
+msgid "Stop On Hover?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:766
+#: wordpress/includes/classes/mountain-projects.php:857
+msgid "Rewind speed in milliseconds"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:778
+msgid "Slider Controls"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:783
+#: wordpress/includes/customize-sections.php:27
+msgid "Navigation"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:784
+msgid "Rewind Navigation"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:785
+msgid "Pagination"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:786
+msgid "Pagination Numbers"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:792
+msgid "Scroll Per Page?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:804
+msgid "Allow Mouse Drag?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:816
+msgid "Allow Touch Drag?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:829
+msgid "Autoplay Speed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:830
+msgid "Autoplay speed in milliseconds"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:832
+#: wordpress/includes/classes/mountain-projects.php:841
+#: wordpress/includes/classes/mountain-projects.php:850
+#: wordpress/includes/classes/mountain-projects.php:859
+msgid "Speed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:838
+msgid "Slide Speed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:839
+msgid "Slide speed in milliseconds"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:847
+msgid "Pagination Speed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:848
+msgid "Pagination speed in milliseconds"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:856
+msgid "Rewind Speed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:866
+msgid "Enable Responsive?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:868
+#: wordpress/includes/classes/mountain-projects.php:881
+#: wordpress/includes/classes/mountain-projects.php:891
+msgid "Responsive"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:878
+msgid "Items On Tablet"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:879
+msgid "The maximum amount of items displayed at a time on tablet device"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:888
+msgid "Items On Mobile"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:889
+msgid "The maximum amount of items displayed at a time on mobile device"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-projects.php:899
+msgid "Design Options"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:43
+#: wordpress/includes/classes/mountain-sample-data.php:56
+msgid "Sample Data Installation"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:44
+msgid "Sample Data"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:59
+msgid "There is following tasks will be run for install sample data:"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:61
+#: wordpress/includes/classes/mountain-sample-data.php:73
+msgid "Import sample content"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:62
+#: wordpress/includes/classes/mountain-sample-data.php:77
+msgid "Download media files"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:66
+msgid "Install Sample Data"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:84
+msgid "Congratulation! Sample data has been installed successfully"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:103
+msgid ""
+"Attention!!! Your existing data will be removed when install sample data. "
+"Are you sure you want to install sample data?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:156
+#, php-format
+msgid "Sample data file not found: %s"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sample-data.php:159
+msgid "Cannot request permision for FileSystem API"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:43
+msgid "remove this area"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:44
+msgid "Are you sure you want to remove this widget area?"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:87
+msgid "New custom widget area has been created"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:88
+msgid "Custom widget area has been removed"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:91
+msgid "Cannot create custom widget area, please try again"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:92
+msgid "Invalid the ID of widget area"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:106
+msgid "Create Widget Area"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:108
+msgid "Enter name of the widget area:"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:110
+msgid "Create"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:117
+msgid "Remove Custom Widget Area"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:119
+msgid "Select custom widget area to be removed:"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:125
+#: wordpress/includes/vendor/options-plus/options/control/background.php:119
+msgid "Remove"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-sidebars.php:153
+#, php-format
+msgid "There are widgets for %s"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:119
+msgid "Team Members"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:138
+msgid "Member List"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:139
+msgid "Change options in this section to custom style for member listing page."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:166
+msgid "Member List Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:205
+msgid "Single Member"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:206
+msgid "Change the layout, sidebar, navigator, ... for the single member page."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-team-members.php:233
+msgid "Single Member Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme-customize.php:81
+#: wordpress/includes/classes/mountain-theme-customize.php:112
+#: wordpress/includes/vendor/options-plus/customize/manager.php:104
+msgid "Untitled Section"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:120
+#: wordpress/includes/classes/mountain.php:82
+msgid "Primary Menu"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:121
+msgid "Top Menu"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:154
+msgid "Primary Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:165
+msgid "Header Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:176
+msgid "Page Title Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:187
+msgid "Footer Sidebar #1"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:197
+msgid "Footer Sidebar #2"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:207
+msgid "Footer Sidebar #3"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-theme.php:217
+msgid "Footer Sidebar #4"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:170
+msgid "WooCommerce"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:188
+msgid "Products Listing"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:189
+msgid ""
+"This section is designed for only Woocommerce, it will be applied for page "
+"that listing all products."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:216
+#: wordpress/includes/classes/mountain-woocommerce.php:258
+#: wordpress/includes/customize-controls.php:319
+#: wordpress/includes/customize-controls.php:540
+msgid "Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:223
+msgid "Products Per Page"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:231
+msgid "Product Details"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:232
+msgid "Like \"Blog Single\" section, you can change style for product details page."
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:264
+msgid "Show Related Products"
+msgstr ""
+
+#: wordpress/includes/classes/mountain-woocommerce.php:272
+msgid "Number Of Related Products"
+msgstr ""
+
+#: wordpress/includes/classes/mountain.php:52
+msgid "Off-Canvas Sidebar"
+msgstr ""
+
+#: wordpress/includes/classes/mountain.php:64
+msgid "WooCommerce Content Top"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:19
+msgid "Site Information"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:20
+msgid ""
+"This section have basic information of your site, just change it to match "
+"with you need."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:27
+msgid "Site Name"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:34
+msgid "Site Tagline"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:43
+msgid "Static Front Page"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:44
+msgid "Switch this option to use static page or posts page on the home"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:52
+msgid "Posts"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:53
+msgid "Static Page"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:60
+msgid "Front Page"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:67
+msgid "Posts Page"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:75
+#: wordpress/includes/customize-sections.php:37
+msgid "Misc"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:76
+msgid ""
+"This section have options that allow to adding bookmark icon, social icons, ."
+".."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:81
+msgid "Enable Go Top Button"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:88
+msgid "Social Links"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:103
+msgid "Body Font"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:104
+msgid "You can modify the font family, size, color, ... for global content."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:122
+msgid "Heading Font"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:123
+msgid "You can modify the font options for your headings. h1, h2, h3, h4, ..."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:142
+msgid "H1 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:143
+msgid "H2 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:144
+msgid "H3 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:145
+msgid "H4 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:146
+msgid "H5 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:147
+msgid "H6 Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:158
+msgid "Menu Font"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:159
+msgid "Select your custom font options for your main navigation menu."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:177
+msgid "Page Title Font"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:178
+msgid "Select your custom font options for your page title."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:196
+msgid "Font Subsets"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:197
+msgid ""
+"Sometime you need to load extra font subsets for another languages, this "
+"options will allow to do it."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:203
+msgid "Cyrillic"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:210
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:217
+msgid "Greek"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:223
+msgid "Greek Extended"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:230
+msgid "Vietnamese"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:237
+msgid "Latin Extended"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:244
+msgid "Devanagari"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:255
+#: wordpress/includes/customize-controls.php:261
+msgid "Scheme Color"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:256
+msgid "Select the color that will be used for theme color."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:270
+msgid "Layout"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:271
+msgid ""
+"Choose between a full or a boxed layout to set how your website's layout "
+"will look like."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:276
+msgid "Display Style"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:281
+msgid "Wide"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:286
+msgid "Boxed"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:294
+msgid "Boxed Background"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:310
+msgid "Content Width"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:345
+msgid "Default Sidebar"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:360
+#: wordpress/includes/customize-controls.php:985
+msgid "Enable Page Title"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:368
+#: wordpress/includes/customize-controls.php:547
+msgid "Background"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:394
+msgid "Enable Parallax Effect"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:403
+msgid "Breadcrumb"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:404
+msgid "Change settings for the breadcrumb."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:408
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:415
+msgid "Breadcrumb Prefix"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:417
+#: wordpress/templates/blocks/content/breadcrumb.php:22
+msgid "You are here:"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:422
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:432
+msgid "Use Logo Image"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:439
+msgid "Display Site Tagline"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:446
+#: wordpress/includes/customize-sections.php:22
+msgid "Logo"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:453
+msgid "Logo Margin"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:456
+msgid "Top (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:457
+msgid "Bottom (px)"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:468
+msgid "-- Select --"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:511
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:517
+msgid "Show Search Menu"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:524
+msgid "Show Cart Menu"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:533
+msgid "Enable Off-Canvas Area"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:568
+msgid "Footer Widgets"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:569
+msgid ""
+"This section allow to change the layout and styles of footer widgets to "
+"match as you need."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:573
+msgid "Enable Footer Widgets"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:580
+msgid "Widgets Layout"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:597
+msgid "Widgets Background"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:621
+msgid "Custom Footer"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:622
+msgid "You can change the copyright text, show/hide the social icons on the footer."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:627
+msgid "Enable Social Links"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:634
+msgid "Copyright"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:645
+msgid "Blog List"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:646
+msgid "All options in this section will be used to make style for blog page."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:656
+msgid "List Large"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:702
+msgid "Blog List Sidebar"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:708
+msgid "Auto Post Excepts"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:715
+msgid "Post Excepts Length"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:722
+msgid "Show Post Meta"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:729
+msgid "Show Read More"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:736
+msgid "Read More Text"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:738
+msgid "Continue Read &rarr;"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:776
+msgid "Blog Single"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:777
+msgid "Also, you can change the style for blog single to make your site unique."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:804
+msgid "Blog Single Sidebar"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:817
+msgid "Show Post Navigator"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:824
+msgid "Show Author Box"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:831
+msgid "Show Related Posts"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:838
+msgid "Related Posts Style"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:856
+msgid "Columns Of Related Posts"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:868
+msgid "Number Of Related Posts"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:992
+msgid "Custom Page Title"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:993
+msgid "Portfolio"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1000
+msgid "Portfolio List"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1001
+msgid "Change options in this section to custom style for portfolio listing page."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1028
+msgid "Portfolio List Sidebar"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1109
+msgid "Single Portfolio"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1110
+msgid "Change the layout, sidebar, navigator, ... for the single portfolio page."
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1137
+msgid "Single Portfolio Sidebar"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1150
+msgid "Single Sticky Navigator"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1157
+msgid "Show Related Portfolios"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1165
+msgid "Related Portfolio Style"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1172
+msgid "Carousel No Margin"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1193
+msgid "Number Of Related Portfolios"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1203
+msgid "Enable Under Construction"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1211
+msgid "Under Construction Page"
+msgstr ""
+
+#: wordpress/includes/customize-controls.php:1217
+msgid "Role-based Access Permission"
+msgstr ""
+
+#: wordpress/includes/customize-panels.php:17
+msgid "Header Options"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:23
+msgid ""
+"In this section You can upload your own custom logo, change the way your "
+"logo can be displayed"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:28
+msgid "Manage the menu that will be assigned to the location on the theme"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:32
+msgid "Off-Canvas"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:33
+msgid "Change the style for the off-canvas area"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:44
+msgid "Footer"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:45
+msgid "Layout & Styles"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:46
+msgid "Typography"
+msgstr ""
+
+#: wordpress/includes/customize-sections.php:47
+msgid "Blog"
+msgstr ""
+
+#: wordpress/includes/functions/structure.php:48
+#: wordpress/includes/vendor/breadcrumb-trail.php:185
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: wordpress/includes/functions/template.php:57
+msgid "By"
+msgstr ""
+
+#: wordpress/includes/functions/template.php:65
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: wordpress/includes/functions/template.php:81
+msgid "0 comment"
+msgstr ""
+
+#: wordpress/includes/functions/template.php:81
+msgid "1 Comment"
+msgstr ""
+
+#: wordpress/includes/functions/template.php:81
+#, c-format
+msgid "% Comments"
+msgstr ""
+
+#: wordpress/includes/functions/template.php:87
+msgid "(Edit)"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:30
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:158
+msgid "Font Color"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:32
+msgid "Select font color"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:38
+msgid "Row ID"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:40
+msgid "Enter custom ID for this row"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:45
+msgid "Enable Content Width 100%"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:48
+#: wordpress/includes/functions/visual-composer.php:58
+#: wordpress/includes/functions/visual-composer.php:94
+msgid "Yes, please"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:54
+msgid "Enable Background Parallax Effect"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:56
+#: wordpress/includes/functions/visual-composer.php:66
+#: wordpress/includes/functions/visual-composer.php:74
+#: wordpress/includes/functions/visual-composer.php:82
+msgid "Parallax"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:64
+msgid "Parallax Position Ratio"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:72
+msgid "Parallax X Offset"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:80
+msgid "Parallax Y Offset"
+msgstr ""
+
+#: wordpress/includes/functions/visual-composer.php:91
+msgid "Enable Lightbox For This Image"
+msgstr ""
+
+#: wordpress/includes/plugins.php:104
+#: wordpress/includes/vendor/plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: wordpress/includes/plugins.php:105
+#: wordpress/includes/vendor/plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: wordpress/includes/plugins.php:106
+#: wordpress/includes/vendor/plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: wordpress/includes/plugins.php:107
+#: wordpress/includes/vendor/plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: wordpress/includes/plugins.php:108
+#: wordpress/includes/vendor/plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:109
+#: wordpress/includes/vendor/plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:110
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:111
+#: wordpress/includes/vendor/plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:112
+#: wordpress/includes/vendor/plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:113
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:114
+#: wordpress/includes/vendor/plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:115
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:116
+#: wordpress/includes/vendor/plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:117
+#: wordpress/includes/vendor/plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/plugins.php:118
+#: wordpress/includes/vendor/plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wordpress/includes/plugins.php:119
+#: wordpress/includes/vendor/plugin-activation.php:399
+#: wordpress/includes/vendor/plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wordpress/includes/plugins.php:120
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:179
+msgid "Home"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:180
+msgid "404 Not Found"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:181
+msgid "Archives"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:187
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:189
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:716
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:750
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:766
+#: wordpress/includes/vendor/breadcrumb-trail.php:795
+#: wordpress/includes/vendor/breadcrumb-trail.php:822
+#: wordpress/includes/vendor/breadcrumb-trail.php:849
+#: wordpress/includes/vendor/breadcrumb-trail.php:1036
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:767
+#: wordpress/includes/vendor/breadcrumb-trail.php:823
+#: wordpress/includes/vendor/breadcrumb-trail.php:1040
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:768
+#: wordpress/includes/vendor/breadcrumb-trail.php:1044
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:796
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:1135
+#: wordpress/includes/vendor/breadcrumb-trail.php:1171
+#: wordpress/includes/vendor/breadcrumb-trail.php:1188
+#: wordpress/includes/vendor/breadcrumb-trail.php:1219
+msgid "Edit"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:1163
+msgid "Split"
+msgstr ""
+
+#: wordpress/includes/vendor/breadcrumb-trail.php:1167
+msgid "Merge"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:81
+msgid "None"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:85
+msgid "Patterns"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:89
+msgid "Custom"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:109
+msgid "Background Image"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:113
+#: wordpress/includes/vendor/options-plus/options/control/image-picker.php:52
+#: wordpress/includes/vendor/options-plus/options/control/media-picker.php:49
+msgid "Drop a file here or"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:114
+#: wordpress/includes/vendor/options-plus/options/control/image-picker.php:53
+#: wordpress/includes/vendor/options-plus/options/control/media-picker.php:50
+msgid "select a file"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:125
+msgid "Background Repeat"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:129
+msgid "No Repeat"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:133
+msgid "Repeat X"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:137
+msgid "Repeat Y"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:141
+msgid "Repeat All"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:147
+msgid "Background Position"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:151
+msgid "Top Left"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:155
+msgid "Top Center"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:159
+msgid "Top Right"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:164
+msgid "Middle Left"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:168
+msgid "Middle Center"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:172
+msgid "Middle Right"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:177
+msgid "Bottom Left"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:181
+msgid "Bottom Center"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:185
+msgid "Bottom Right"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:191
+msgid "Background Style"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:195
+msgid "Fixed"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:199
+msgid "Scroll"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/background.php:203
+msgid "Cover"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/dropdown-pages.php:41
+#: wordpress/includes/vendor/options-plus/options/control/dropdown-sidebars.php:31
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/image-picker.php:58
+#: wordpress/includes/vendor/options-plus/options/control/media-picker.php:55
+msgid "Remove Image"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/images-gallery.php:58
+msgid "Add Files"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/media-input.php:54
+msgid "Browse..."
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/media-list.php:67
+msgid "Insert Image(s)"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/media-list.php:70
+msgid "Insert Video(s)"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/media-list.php:92
+#: wordpress/templates/blocks/project-filter.php:38
+msgid "All"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/media-list.php:99
+msgid "URL"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:36
+msgid "Thin 100"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:37
+msgid "Thin 100 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:38
+msgid "Extra-light 200"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:39
+msgid "Extra-light 200 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:40
+msgid "Light 300"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:41
+msgid "Light 300 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:42
+msgid "Normal 400"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:43
+msgid "Normal 400 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:44
+msgid "Medium 500"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:45
+msgid "Medium 500 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:46
+msgid "Semi-bold 600"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:47
+msgid "Semi-bold 600 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:48
+msgid "Bold 700"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:49
+msgid "Bold 700 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:50
+msgid "Extra-bold 800"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:51
+msgid "Extra-bold 800 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:52
+msgid "Ultra-bold 900"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:53
+msgid "Ultra-bold 900 italic"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:97
+msgid "Font Family"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:120
+msgid "Font Size (px)"
+msgstr ""
+
+#: wordpress/includes/vendor/options-plus/options/control/typography.php:132
+msgid "Font Weight & Style"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:363
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:400
+#: wordpress/includes/vendor/plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:828
+#: wordpress/includes/vendor/plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:935
+#: wordpress/includes/vendor/plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:1116
+#: wordpress/includes/vendor/plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3370
+#: wordpress/includes/vendor/plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3370
+#: wordpress/includes/vendor/plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: wordpress/includes/vendor/plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wordpress/search.php:46 wordpress/templates/blocks/post/empty.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: wordpress/search.php:47
+msgid "Sorry, no posts matched your criteria. Please try another search"
+msgstr ""
+
+#: wordpress/search.php:49
+msgid "You might want to consider some of our suggestions to get better results:"
+msgstr ""
+
+#: wordpress/search.php:51
+msgid "Check your spelling."
+msgstr ""
+
+#: wordpress/search.php:52
+msgid "Try a similar keyword, for example: tablet instead of laptop."
+msgstr ""
+
+#: wordpress/search.php:53
+msgid "Try using more than one keyword."
+msgstr ""
+
+#: wordpress/single-nproject.php:42
+msgid "Category:"
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:30
+msgid "Archive for: "
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:33
+msgid "Archive for category: "
+msgstr " "
+
+#: wordpress/templates/blocks/content/header-title.php:36
+msgid "Archive for tag: "
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:41
+#, php-format
+msgid "Archive for year: %s"
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:44
+#, php-format
+msgid "Archive for month: %s"
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:47
+#, php-format
+msgid "Archive for date: %s"
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:56
+#, php-format
+msgid "Archive for author: %s"
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:63
+#, php-format
+msgid "%d search result for \"%s\""
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:65
+#, php-format
+msgid "%d search results for \"%s\""
+msgstr ""
+
+#: wordpress/templates/blocks/content/header-title.php:77
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: wordpress/templates/blocks/pagination.php:38
+#: wordpress/templates/blocks/pagination.php:53
+msgid "&larr; Previous"
+msgstr ""
+
+#: wordpress/templates/blocks/pagination.php:39
+#: wordpress/templates/blocks/pagination.php:52
+msgid "Next &rarr;"
+msgstr ""
+
+#: wordpress/templates/blocks/post-navigator.php:19
+#: wordpress/templates/blocks/post/navigator.php:19
+msgid "Published In"
+msgstr ""
+
+#: wordpress/templates/blocks/post-navigator.php:21
+#: wordpress/templates/blocks/post/navigator.php:21
+#: wordpress/templates/blocks/project-navigator.php:19
+msgid "Previous Post"
+msgstr ""
+
+#: wordpress/templates/blocks/post-navigator.php:22
+#: wordpress/templates/blocks/post/navigator.php:22
+#: wordpress/templates/blocks/project-navigator.php:33
+msgid "Next Post"
+msgstr ""
+
+#: wordpress/templates/blocks/post-related-carousel.php:50
+#: wordpress/templates/blocks/post-related-grid.php:50
+msgid "Related Posts"
+msgstr ""
+
+#: wordpress/templates/blocks/post-related-carousel.php:98
+#: wordpress/templates/blocks/post-related-grid.php:97
+msgid "Continue Read"
+msgstr ""
+
+#: wordpress/templates/blocks/post.php:69
+msgid "Pages:"
+msgstr ""
+
+#: wordpress/templates/blocks/post/author.php:19
+msgid "About"
+msgstr ""
+
+#: wordpress/templates/blocks/post/empty.php:14
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: wordpress/templates/blocks/project-filter.php:33
+msgid "Toggle Filter"
+msgstr ""
+
+#: wordpress/templates/blocks/project-navigator.php:22
+msgid "Previous Project"
+msgstr ""
+
+#: wordpress/templates/blocks/project-navigator.php:28
+msgid "Project Home"
+msgstr ""
+
+#: wordpress/templates/blocks/project-navigator.php:36
+msgid "Next Project"
+msgstr ""
+
+#: wordpress/templates/layout-single.php:108
+#: wordpress/templates/layout-template-blank.php:69
+#: wordpress/templates/layout.php:77
+msgid "Goto Top"
+msgstr ""
