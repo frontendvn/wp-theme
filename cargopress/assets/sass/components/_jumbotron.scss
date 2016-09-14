@@ -1,0 +1,147 @@
+/* 05.11. Jumbotron */
+.jumbotron {
+	position: relative;
+	padding: 0;
+	background-color: $primary-color;
+	margin-bottom: 30px;
+
+	@media (min-width: $screen-md-min) {
+		margin-bottom: 45px;
+	}
+
+	&-content {
+		color: #ffffff;
+		padding: 30px 0;
+
+		@media (min-width: $screen-md-min) {
+			position: absolute;
+			padding: 0;
+			width: 550px;
+			top: 110px;
+		}
+
+		@media (min-width: 1500px) {
+			top: 170px;
+		}
+
+		&__title {
+			h1 {
+				font-size: 44px;
+				margin-top: 0;
+				margin-bottom: 15px;
+
+				@media (min-width: $screen-md-min) {
+					font-size: 28px;
+					text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+				}
+
+				@media (min-width: $screen-lg-min) {
+					font-size: 44px;
+				}
+			}
+		}
+
+		&__description {
+			p {
+				font-weight: normal;
+				font-size: 16px;
+
+				@media (min-width: $screen-md-min) {
+					font-size: 14px;
+					text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+				}
+
+				@media (min-width: $screen-lg-min) {
+					font-size: 16px;
+				}
+
+				.btn-secondary {
+					text-shadow: none;
+				}
+			}
+		}
+	}
+
+	&__control {
+		position: absolute;
+		background-color: rgba(250,250,250,0.35);
+		color: rgba(0,0,0,0.35);
+		text-align: center;
+		top: 35px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		transition: $primary-transition;
+
+		&:focus,
+		&:hover {
+			color: rgba(0,0,0,0.5);
+			background-color: rgba(250,250,250,0.5);
+		}
+
+		@media (min-width: $screen-xs-min) {
+			top: 70px;
+		}
+
+		@media (min-width: $screen-sm-min) {
+			top: 110px;
+		}
+
+		@media (min-width: $screen-md-min) {
+			top: 40px;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 18px;
+		}
+
+		@media (min-width: 1500px) {
+			width: 60px;
+			height: 60px;
+			top: 60px;
+			line-height: 60px;
+			font-size: 24px;
+		}
+
+		&.left {
+			left: 15px;
+
+			@media (min-width: $screen-sm-min) {
+				left: 30px;
+			}
+
+			@media (min-width: $screen-md-min) {
+				left: inherit;
+				border-radius: 2px;
+			}
+		}
+
+		&.right {
+			right: 15px;
+
+			@media (min-width: $screen-sm-min) {
+				right: 30px;
+			}
+
+			@media (min-width: $screen-md-min) {
+				margin-left: 48px;
+				right: inherit;
+				border-radius: 2px;
+			}
+
+			@media (min-width: 1500px) {
+				margin-left: 68px;
+			}
+		}
+	}
+
+	.btn {
+		margin: 10px 0;
+	}
+}
+
+// force 100% width for slider images
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 100%;
+}

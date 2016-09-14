@@ -1,0 +1,33 @@
+/* 05.21. Visual Composer */
+.wpb-js-composer {
+	.wpcf7-select,
+	.wpcf7-text,
+	.wpcf7-textarea {
+		margin-bottom: 30px !important;
+	}
+
+	.contact-form-small .wpcf7-select, .contact-form-small .wpcf7-text, .contact-form-small .wpcf7-textarea {
+		margin-bottom: 15px !important;
+	}
+
+	.testimonial .widgettitle {
+		font-size: 44px;
+		margin-top: 0;
+		margin-bottom: 30px;
+		float: left;
+	}
+
+	.featured-widget h3{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.widget-title {
+		margin-bottom: 30px !important;
+	}
+
+	// Google map widget fix for VC
+	.wpb_wrapper .simple-map img {
+		max-width: none;
+	}
+}

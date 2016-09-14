@@ -1,0 +1,315 @@
+# Copyright (C) 2015 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: CargoPress by ProteusThemes 0.0.0-tmp\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2016-01-15 07:36:08+00:00\n"
+"PO-Revision-Date: 2015-12-03 14:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: ProteusThemes <info@proteusthemes.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404 Picture"
+msgstr "404 Slika"
+
+#: 404.php:18
+msgid "LOOKS LIKE SOMETHING WENT WRONG!"
+msgstr "NEKAJ JE ŠLO NAROBE!"
+
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+#: 404.php:23
+msgid ""
+"The page you were looking for is not here. %s Go %s Home %s or try to search:"
+msgstr ""
+"Stran, ki jo iščeš ne obstaja. %s Nadaljuj %s Domov %s ali poskusi z "
+"iskanjem:"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Navigacija po komentarjih"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Starejši komentarji"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Novejši komentarji &rarr;"
+
+#: comments.php:32 comments.php:87
+msgid "Comments for this post are closed."
+msgstr "Komentiranje tega prispevka je onemogočeno."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Napiši komentar"
+
+#: comments.php:54
+msgid "First and Last name"
+msgstr "Ime in priimek"
+
+#: comments.php:60
+msgid "E-mail Address"
+msgstr "E-mail naslov"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Spletna stran"
+
+#: header.php:31
+msgid "Top Menu"
+msgstr "Vrhnji meni"
+
+#: header.php:70
+msgid "MENU"
+msgstr "MENI"
+
+#: header.php:79
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr "Uredi"
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Tvoj komentar čaka na odobritev."
+
+#: inc/filters.php:372
+msgid "After import setup ended!"
+msgstr ""
+
+#: inc/filters.php:380
+msgid ""
+"Please try to manually import the demo data. Here are instructions on how to "
+"do that: %sDocumentation: Import XML File%s"
+msgstr ""
+
+#. translators: %s represents a number
+#: inc/helpers.php:36
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "Komentar"
+msgstr[1] "Komentarja"
+msgstr[2] "Komentarji"
+msgstr[3] "Komentarjev"
+
+#: index.php:39
+msgid "Read More"
+msgstr "Preberi več"
+
+#: index.php:48 single.php:59
+msgid "Sorry, no results found."
+msgstr "Žal ni rezultatov, ki vsebujejo iskane besede."
+
+#: part-main-title.php:57
+msgid "Search Results For"
+msgstr "Najdeni rezultati za"
+
+#: part-main-title.php:59
+msgid "Error 404"
+msgstr "Napaka 404"
+
+#: part-meta-data.php:4
+msgid "By"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Išči:"
+
+#: searchform.php:12
+msgid "Search ..."
+msgstr "Išči..."
+
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+#: single.php:43
+msgid "Pages:"
+msgstr "Stran:"
+
+#. Theme Name of the plugin/theme
+msgid "CargoPress by ProteusThemes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.proteusthemes.com/cargopress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "CargoPress WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.proteusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr "Naslovna stran z Layer/Revolution sliderjem"
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr "Naslovna stran s sliderjem"
+
+#: comments.php:76
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Tvoj komentar"
+
+#: functions.php:94
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: functions.php:95
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Meni v vrhnji vrstici"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Klikni tukaj za ogled dokumentacije teme na spletu!"
+
+#: inc/filters.php:221
+msgctxt "backend"
+msgid "Widget Style"
+msgstr "Stil gradnika"
+
+#: inc/filters.php:223
+msgctxt "backend"
+msgid "Set a box around the widget"
+msgstr "Dodaj obrobo okoli gradnika"
+
+#: inc/filters.php:229
+msgctxt "backend"
+msgid "Widget Title"
+msgstr "Naslov gradnika"
+
+#: inc/filters.php:231
+msgctxt "backend"
+msgid "Exposed title (bigger font, thin line)"
+msgstr "Izpostavljen naslov (večja pisava, tanka črta)"
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Stranska vrstica v blogu"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Stranska vrstica, prikazana na blog straneh"
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Osnovna stranska vrstica"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Stranska vrstica, prikazana na osnovnih straneh"
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Stranska vrstica v trgovini"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Stranska vrstica, prikazana v trgovini"
+
+#: inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Header"
+msgstr "Glava"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Header area for Icon Box and Social Icons widgets."
+msgstr ""
+"Prostor v glavi spletne strani, namenjen gradnikom z ikonami in ikonami za "
+"družabna omrežja."
+
+#: inc/theme-sidebars.php:67
+msgctxt "backend"
+msgid "Navigation"
+msgstr "Navigacija"
+
+#: inc/theme-sidebars.php:69
+msgctxt "backend"
+msgid "Navigation area for Social Icons widgets."
+msgstr "Navigacija, namenjena povezavam na družabna omrežja"
+
+#: inc/theme-sidebars.php:82
+msgctxt "backend"
+msgid "Footer"
+msgstr "Noga"
+
+#: inc/theme-sidebars.php:84
+msgctxt "backend"
+msgid ""
+"Footer area works best with %d widgets. This number can be changed in the "
+"Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr ""
+"Noga spletne strani najbolje funkcionira z %d gradniki. To številko lahko "
+"spremeniš v Izgled &rarr; Prilagodi &rarr; Možnosti teme &rarr; Noga."
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s ob %2$s"
+
+#: inc/filters.php:97
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/filters.php:184
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/helpers.php:95
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#~ msgctxt "backend"
+#~ msgid "CargoPress: Front Page"
+#~ msgstr "CargoPress: naslovna stran"

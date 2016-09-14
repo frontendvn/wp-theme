@@ -1,0 +1,19 @@
+{
+    "name":         "proteusthemes/cargopress-pt",
+    "description":  "WordPress theme by ProteusThemes.",
+    "license":      "GPL-2.0+",
+    "type":         "project",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url":  "https://github.com/ProteusThemes/visual-composer-elements.git"
+      }
+    ],
+    "require": {
+        "tgmpa/tgm-plugin-activation": "~2.5.0",
+        "proteusthemes/wai-aria-walker-nav-menu": "~1.1.0",
+        "proteusthemes/wp-customizer-utilities": "~1.1.0",
+        "proteusthemes/proteuswidgets": "^2.5.4",
+        "proteusthemes/visual-composer-elements": "~0.3.0"
+    }
+}

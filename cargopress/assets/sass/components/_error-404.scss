@@ -1,0 +1,42 @@
+/* 05.07. Error 404 */
+.error-404 {
+	text-align: center;
+	margin-top: -30px;
+
+	@media (min-width: $screen-md-min) {
+		margin-top: -60px;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	&__content {
+		margin-bottom: 30px;
+
+		@media (min-width: $screen-md-min) {
+			margin-top: -180px;
+			margin-bottom: 120px;
+		}
+	}
+
+	&__text {
+		font-size: 18px;
+		color: $text-color;
+		margin-bottom: 30px;
+	}
+
+	.widget_search {
+		@media (min-width: $screen-md-min) {
+			display: inline-block;
+			text-align: center;
+		}
+
+		.search-form {
+			@media (min-width: $screen-md-min) {
+				width: 400px;
+			}
+		}
+	}
+}

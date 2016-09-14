@@ -1,0 +1,25 @@
+/* 05.01. Top Bar */
+.top {
+	font-size: 13px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #ededed;
+	color: #aaaaaa;
+}
+
+.top__tagline {
+	text-align: center;
+	padding: 8px 0 2.5px 0;
+
+	@media (min-width: $screen-md-min) {
+		float: left;
+		padding: 7.5px 0;
+	}
+}
+
+.top__menu {
+	text-align: center;
+
+	@media (min-width: $screen-md-min) {
+		float: right;
+	}
+}

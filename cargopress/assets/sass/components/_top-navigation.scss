@@ -1,0 +1,93 @@
+/* 05.09. Top Navigation */
+.top-navigation {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+	@media (min-width: $screen-md-min) {
+		text-align: right;
+	}
+
+	> li {
+		position: relative;
+		display: inline-block;
+
+		> a {
+			display: block;
+			color: $text-color;
+			padding: 7.5px 10px;
+
+			@media (min-width: $screen-md-min) {
+				padding: 7.5px 13px;
+			}
+
+			&:hover,
+			&:focus {
+				color: #888888;
+				text-decoration: none;
+			}
+		}
+
+		&:hover,
+		&[aria-expanded="true"] {
+			> .sub-menu {
+				left: 0;
+			}
+		}
+
+		&:last-of-type {
+			> a {
+				@media (min-width: $screen-md-min) {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.sub-menu {
+		position: absolute;
+		float: left;
+		left: -9999em;
+		z-index: 9999;
+		text-align: left;
+		list-style: none;
+		padding: 0;
+
+		> li {
+			position: relative;
+
+			> a {
+				display: block;
+				white-space: nowrap;
+				background-color: #f5f5f5;
+				color: $text-color;
+				padding: 7px 13px;
+				border-bottom: 1px solid darken(#f5f5f5, 3);
+
+				&:hover,
+				&:focus {
+					color: #888888;
+					text-decoration: none;
+				}
+			}
+
+			> .sub-menu {
+				top: 0;
+				border-left: 1px solid darken(#f5f5f5, 3);
+			}
+
+			&:hover,
+			&[aria-expanded="true"] {
+				> .sub-menu {
+					left: 100%;
+				}
+			}
+
+			&:last-of-type {
+				> a {
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+}

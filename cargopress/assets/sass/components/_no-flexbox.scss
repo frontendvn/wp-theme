@@ -1,0 +1,62 @@
+/* 05.08. Fallback for no Flexbox */
+.no-flexbox {
+	.header {
+		display: inline-block;
+		width: 100%;
+
+		&__logo {
+			width: 100%;
+
+			@media (min-width: $screen-md-min) {
+				text-align: center;
+			}
+
+			&::after {
+				display: none;
+			}
+		}
+
+		&__navigation {
+			width: 100%;
+			margin-left: 0;
+			margin-top: 0;
+
+			@media (min-width: $screen-md-min) {
+				text-align: center;
+			}
+		}
+
+		&__widgets {
+			width: 100%;
+
+			@media (min-width: $screen-md-min) {
+				text-align: center;
+			}
+
+			.widget {
+				@media (min-width: $screen-md-min) {
+					display: inline-block;
+				}
+
+				.textwidget {
+					.btn {
+						margin-bottom: 25px;
+					}
+				}
+			}
+		}
+
+		&__navigation-widgets {
+			width: 100%;
+			text-align: center;
+			margin-top: 0;
+		}
+
+		&__container {
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+/* 05.16. Icons Shortcode */
+.icon-container {
+	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 5px;
+
+	&--square,
+	&--circle {
+		width: 40px;
+		height: 40px;
+		font-size: 22px;
+		background-color: rgba(0,0,0,0.5);
+		// background-color: #7e92a3;
+		text-align: center;
+		line-height: 42px;
+		color: #ffffff;
+		transition: $primary-transition;
+
+		&:hover {
+			background-color: rgba(0,0,0,0.8);
+		}
+	}
+
+	&--square {
+		border-radius: 2px;
+	}
+
+	&--circle {
+		border-radius: 50%;
+	}
+
+	.footer & {
+		&--square,
+		&--circle {
+			background-color: rgba(250,250,250,0.5);
+			color: $primary-color;
+
+			&:hover {
+				background-color: #ffffff;
+			}
+		}
+	}
+}

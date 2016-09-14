@@ -1,0 +1,41 @@
+/* 05.13. Pagination */
+.pagination {
+	position: relative;
+	margin-bottom: 60px;
+
+	.page-numbers {
+		display: inline-block;
+		width: 45px;
+		height: 45px;
+		background-color: #eeeeee;
+		color: $text-color;
+		font-weight: bold;
+		text-align: center;
+		line-height: 45px;
+		transition: $primary-transition;
+
+	}
+
+	a {
+		&:hover {
+			color: #444444;
+			text-decoration: none;
+		}
+	}
+
+	.current {
+		background-color: $brand-primary;
+		color: #ffffff;
+		text-shadow: 0 1px rgba(0,0,0,0.16);
+	}
+
+	.prev,
+	.next {
+		position: absolute;
+		right: 0;
+	}
+
+	.prev {
+		right: 48px;
+	}
+}

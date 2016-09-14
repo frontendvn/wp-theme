@@ -1,0 +1,146 @@
+/* 05.14. Comments */
+.avatar {
+	border-radius: 2px;
+}
+
+.avatar-container--nested,
+.avatar-container--nestedx2,
+.avatar-container {
+	float: left;
+	width: 12%;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.avatar-container--nested {
+	margin-left: 15%;
+	width: 10%;
+}
+
+.avatar-container--nestedx2 {
+	margin-left: 28%;
+	width: 8%;
+}
+
+.comment-content--nested,
+.comment-content--nestedx2,
+.comment-content {
+	float: left;
+	width: 85%;
+	margin-left: 3%;
+	position: relative;
+
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 20px;
+		left: -10px;
+		border: solid 6px #ffffff;
+		border-width: 6px 10px 6px 0;
+		border-right-color: $light-color;
+	}
+
+	.comment-inner {
+		padding: 30px;
+		background-color: $light-color;
+		border-radius: 2px;
+		margin-bottom: 30px;
+	}
+
+	.comment-author, {
+		color: $dark-color;
+		font-size: 21px;
+		font-family: $secondary-font;
+		font-weight: 900;
+		font-style: normal;
+		text-transform: uppercase;
+	}
+
+	.comment-metadata {
+		font-size: 13px;
+		float: right;
+		font-weight: normal;
+		color: #b9babc;
+	}
+
+	.comment-text {
+		color: $text-color;
+		margin-top: 15px;
+		font-size: 14px;
+	}
+}
+
+.comment-content--nested {
+	width: 72%;
+}
+
+.comment-content--nestedx2 {
+	width: 61%;
+}
+
+#comments {
+	display: inline-block;
+
+	.children {
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+}
+
+.comment {
+	list-style: none;
+}
+
+/* Comments Fields */
+.comment-form {
+	.form-control {
+		background: $light-color;
+		border-radius: 2px;
+		border: 1px solid #dedede;
+		box-shadow: none;
+		transition: $primary-transition;
+
+		&:focus {
+			border-color: #dedede;
+			background: #ffffff;
+		}
+	}
+
+	input {
+		height: 45px;
+	}
+
+	label {
+		font-weight: normal;
+	}
+}
+
+.comments__heading {
+	margin-top: 45px;
+	margin-bottom: 22px;
+	font-size: 27px;
+	text-transform: uppercase;
+}
+
+.comments-container + .comments__heading {
+	margin-top: 30px;
+}
+
+.comments__closed {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.comment-respond {
+	font-size: 14px;
+}
+
+.form-allowed-tags {
+	font-size: 12px;
+	margin-top: 12px;
+	margin-bottom: 29px;
+}

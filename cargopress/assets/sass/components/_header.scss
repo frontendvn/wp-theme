@@ -1,0 +1,197 @@
+/* 05.02. Header */
+.header {
+	display: flex;
+	flex-flow: row wrap;
+
+	&__logo {
+		order: 1;
+		background-color: #ffffff;
+		width: 100%;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		@media (min-width: $screen-md-min) {
+			z-index: 1;
+			width: 270px;
+			height: 120px;
+			margin-bottom: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			position: relative;
+		}
+
+		&::after {
+			@media (min-width: $screen-lg-min) {
+				position: absolute;
+				content: "";
+				z-index: -1;
+				height: 43px;
+				width: 43px;
+				background-color: #ffffff;
+				transform: rotate(135deg);
+				bottom: 9px;
+				right: -22px;
+			}
+		}
+
+		img {
+			display: inline-block;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			width: 60%;
+
+			@media (min-width: $screen-xs-min) {
+				width: auto;
+			}
+
+			@media (min-width: $screen-md-min) {
+				margin-bottom: 0;
+			}
+		}
+
+		a {
+			transition: $primary-transition;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+			h1 {
+				margin: 40px 0;
+				color: #444444;
+
+				&:hover {
+					color: #000000;
+				}
+			}
+		}
+	}
+
+	&__widgets {
+		order: 3;
+		background-color: #ffffff;
+		width: 100%;
+
+		@media (min-width: $screen-md-min) {
+			order: 2;
+			width: calc(100% - 270px);
+			height: 120px;
+			text-align: right;
+			padding: 37.5px 0;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			height: 90px;
+			padding: 22.5px 0;
+		}
+	}
+
+	&__navigation {
+		order: 2;
+		width: 100%;
+
+		@media (min-width: $screen-md-min) {
+			order: 3;
+			width: 75%;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			width: calc(80% - 300px);
+			margin-left: 300px;
+			margin-top: -30px;
+		}
+
+		.navbar-collapse {
+			padding: 0;
+		}
+
+		@at-root {
+			// Sticky Navigation, .is-sticky-nav is added via JS (StickyNavbar.js)
+			@media (min-width: $screen-md-min) {
+				.is-sticky-nav {
+					.header__navigation {
+						position: fixed;
+						top: 0;
+						left: 0;
+						width: 100%;
+						z-index: 50;
+						background-color: $primary-color;
+						box-shadow: 0 0 10px rgba(0, 0, 0, .33);
+						display: block;
+						margin-top: 0;
+						margin-left: 0;
+					}
+
+					&.admin-bar {
+						.header__navigation {
+							top: 32px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__navigation-widgets {
+		order: 4;
+		width: 100%;
+		padding: 20px 0;
+
+		@media (min-width: $screen-md-min) {
+			width: 25%;
+			padding: 10px 0;
+			text-align: right;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			margin-top: -30px;
+			width: 20%;
+		}
+	}
+
+	&__container {
+		background-color: #ffffff;
+		position: relative;
+
+		@media (min-width: $screen-md-min) {
+			background-color: $primary-color;
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				width: calc(50% - #{($container-desktop - $grid-gutter-width) / 2});
+				background-color: #ffffff;
+				bottom: 60px;
+			}
+
+			&::before {
+				left: 0;
+			}
+
+			&::after {
+				right: 0;
+			}
+		}
+
+		@media (min-width: $screen-lg-min) {
+			&::before,
+			&::after {
+				width: calc(50% - #{($container-large-desktop - $grid-gutter-width) / 2});
+			}
+
+			&::before {
+				bottom: 30px;
+			}
+		}
+	}
+}

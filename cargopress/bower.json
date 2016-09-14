@@ -1,0 +1,25 @@
+{
+  "name": "cargopress-wp",
+  "authors": [
+    "Primoz Cigler <primoz@proteusnet.com>",
+    "Marko Prelec <marko.prelec@proteusnet.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "^3.3.1",
+    "picturefill": "~2.2.0",
+    "font-awesome": "~4.5.0",
+    "mustache": "~2.0.0"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.3.0"
+  }
+}

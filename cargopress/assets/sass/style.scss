@@ -1,0 +1,336 @@
+/*
+Theme Name: CargoPress by ProteusThemes
+Theme URI: https://demo.proteusthemes.com/cargopress/
+Author: ProteusThemes
+Author URI: https://www.proteusthemes.com/
+Description: CargoPress WordPress Theme.
+Tags: dark, light, two-columns, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, sticky-post, translation-ready
+Version: 0.0.0-tmp
+License: GPL 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text domain: cargopress-pt
+*/
+
+/*
+ TABLE OF CONTENTS
+	01. Project variables............Imported variables
+	02. Twitter Bootstrap............Remove what is not neccessary
+	03. Tags.........................Like <body>, <h1> etc.
+	04. Helpers and utility classes..The general styles like .push-down-15 etc.
+	05. Components...................Imported files, like partials, Compass etc.
+		05.01. Top Bar
+		05.02. Header
+		05.03. Main Title
+		05.04. Breadcrumbs
+		05.05. Sidebar
+		05.06. Footer
+		05.07. Error 404
+		05.08. No Flexbox
+		05.09. Top Navigation
+		05.10. Main Navigation
+		05.11. Jumbotron
+		05.12. Meta Data
+		05.13. Pagination
+		05.14. Comments
+		05.15. Buttons
+		05.16. Icons
+		05.17. ProteusWidgets
+		05.18. WP Specific
+		05.19. WP Widgets
+		05.20. Contact Form 7
+		05.21. Visual Composer
+*/
+
+/*------------------------------------*\
+	01. Project variables
+
+	only visible in SASS source files
+\*------------------------------------*/
+
+@import 'vars';
+
+/*------------------------------------*\
+	02. Twitter Bootstrap
+
+	Remove what is not necessary
+\*------------------------------------*/
+
+// Core variables and mixins
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+
+// Reset and dependencies
+@import 'bootstrap/normalize';
+@import 'bootstrap/print';
+// @import 'bootstrap/glyphicons';
+
+// Core CSS
+@import 'bootstrap/scaffolding';
+@import 'bootstrap/type';
+@import 'bootstrap/code';
+@import 'bootstrap/grid';
+@import 'bootstrap/tables';
+@import 'bootstrap/forms';
+@import 'bootstrap/buttons';
+
+// Components
+@import 'bootstrap/component-animations';
+@import 'bootstrap/dropdowns';
+@import 'bootstrap/button-groups';
+@import 'bootstrap/input-groups';
+@import 'bootstrap/navs';
+@import 'bootstrap/navbar';
+// @import 'bootstrap/breadcrumbs';
+// @import 'bootstrap/pagination';
+// @import 'bootstrap/pager';
+// @import 'bootstrap/labels';
+// @import 'bootstrap/badges';
+@import 'bootstrap/jumbotron';
+// @import 'bootstrap/thumbnails';
+// @import 'bootstrap/alerts';
+// @import 'bootstrap/progress-bars';
+// @import 'bootstrap/media';
+// @import 'bootstrap/list-group';
+// @import 'bootstrap/panels';
+@import 'bootstrap/responsive-embed';
+// @import 'bootstrap/wells';
+// @import 'bootstrap/close';
+
+// Components w/ JavaScript
+@import 'bootstrap/modals';
+@import 'bootstrap/tooltip';
+@import 'bootstrap/popovers';
+@import 'bootstrap/carousel';
+
+// Utility classes
+@import 'bootstrap/utilities';
+// @import 'bootstrap/res/responsive-utilities';
+
+/*------------------------------------*\
+	03. Tags
+\*------------------------------------*/
+
+body {
+	// scss-lint:disable ColorVariable NestingDepth
+
+	.boxed-container {
+		background-color: #ffffff;
+		overflow-x: hidden;
+	}
+
+	&.boxed {
+		> .boxed-container {
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0, 0, 0, .10);
+			max-width: 100%;
+
+			@media (min-width: $screen-sm-min) {
+				width: ($container-sm + 60px);
+			}
+
+			@media (min-width: $screen-md-min) {
+				width: ($container-md + 60px);
+			}
+
+			@media (min-width: $screen-lg-min) {
+				width: ($container-lg + 60px);
+			}
+		}
+
+		.footer-top::before,
+		.footer::before {
+			display: none;
+		}
+
+		.jumbotron {
+			&-content {
+				@media (min-width: 1500px) {
+					top: 110px;
+				}
+
+				&__title {
+					h1 {
+						@media (min-width: $screen-lg-min) {
+							font-size: 38px;
+						}
+					}
+				}
+			}
+
+			&__control {
+				@media (min-width: 1500px) {
+					top: 40px;
+					width: 40px;
+					height: 40px;
+					line-height: 40px;
+					font-size: 18px;
+				}
+
+				&.right {
+					@media (min-width: 1500px) {
+						margin-left: 48px;
+					}
+				}
+			}
+		}
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $dark-color;
+	font-family: $secondary-font;
+	font-weight: 900;
+	letter-spacing: -.05em;
+}
+
+h3 {
+	font-size: 27px;
+}
+
+input,
+select,
+textarea {
+	outline: 0;
+}
+
+.dark-link {
+	color: $dark-color;
+
+	&:hover,
+	&:focus {
+		color: $dark-color;
+	}
+}
+
+/*------------------------------------*\
+	04. Helpers
+\*------------------------------------*/
+
+.screen-reader-text {
+	// scss-lint:disable ImportantRule
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.wp-post-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.featured-widget {
+	// scss-lint:disable ColorVariable
+	padding: 30px;
+	background-color: $body-bg;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .15);
+
+	h3 {
+		margin-top: 0;
+	}
+}
+
+.jumbotron-overlap {
+	@media (min-width: 1500px) {
+		position: relative;
+		margin-top: -75px;
+	}
+
+	img {
+		// scss-lint:disable ColorVariable
+		@media (min-width: 1500px) {
+			box-shadow: 0 -2px 6px rgba(0, 0, 0, .2);
+		}
+	}
+}
+
+.widget-title {
+	margin-bottom: 30px;
+	position: relative;
+
+	&--big {
+		.widget-title {
+			font-size: 27px;
+
+			@media (min-width: $screen-md-min) {
+				font-size: 44px;
+			}
+		}
+	}
+
+	&__line {
+		// scss-lint:disable ColorVariable
+		border-bottom: 1px solid rgba(0, 0, 0, .065);
+		position: absolute;
+		right: 0;
+		top: 50%;
+	}
+}
+
+.hr-quote {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		content: '“';
+		font-family: Georgia, "Times New Roman";
+		right: calc(50% - 5px);
+		top: calc(50% - 22px);
+		color: $brand-danger;
+		font-size: 40px;
+		width: 10px;
+		height: 10px;
+	}
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+/*------------------------------------*\
+	05. Components
+\*------------------------------------*/
+
+// Layout
+@import 'components/top-bar';
+@import 'components/header';
+@import 'components/main-title';
+@import 'components/breadcrumbs';
+@import 'components/sidebar';
+@import 'components/footer';
+@import 'components/error-404';
+
+// Layout Specific
+@import 'components/no-flexbox';
+
+// Elements
+@import 'components/top-navigation';
+@import 'components/main-navigation';
+@import 'components/jumbotron';
+@import 'components/meta-data';
+@import 'components/pagination';
+@import 'components/comments';
+@import 'components/buttons';
+@import 'components/icons';
+@import 'components/proteus-widgets';
+
+// WordPress Specific
+@import 'components/wp';
+@import 'components/wp-widgets';
+
+// Plugins
+@import 'components/contact-form-7';
+@import 'components/visual-composer';
+
+// Fonts
+@import '../../bower_components/font-awesome/scss/font-awesome';
+
+/*------------------------------------*\
+	The End :)
+\*------------------------------------*/

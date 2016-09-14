@@ -1,0 +1,28 @@
+/* 05.12. Meta Data */
+.meta-data {
+	padding: 6px 20px 4px 20px;
+	background-color: #eeeeee;
+	color: #aaaaaa;
+	font-size: 14px;
+	line-height: 35px;
+	margin-bottom: 24px;
+
+	a {
+		color: #aaaaaa;
+
+		&:hover {
+			color: #444444;
+		}
+	}
+
+	&__separator {
+		margin: 0 10px;
+		color: #dddddd;
+		font-size: 28px;
+		vertical-align: middle;
+	}
+
+	.single & {
+		margin-bottom: 37px;
+	}
+}

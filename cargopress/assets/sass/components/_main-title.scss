@@ -1,0 +1,21 @@
+/* 05.03. Main Title */
+.main-title {
+	background: linear-gradient(to right, #f5f5f5 0%,#eeeeee 100%);
+	padding: 50px 0;
+	margin-bottom: 30px;
+
+	&__primary {
+		text-transform: uppercase;
+		margin: 0;
+		font-size: 44px;
+	}
+
+	&__secondary {
+		font-family: $primary-font;
+		font-size: 16px;
+		color: #aaaaaa;
+		margin: 10px 0 7px 0;
+		font-weight: normal;
+		letter-spacing: 0px;
+	}
+}

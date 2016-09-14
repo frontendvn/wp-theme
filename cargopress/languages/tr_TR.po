@@ -1,0 +1,314 @@
+# Copyright (C) 2016 ProteusThemes
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: CargoPress by ProteusThemes 0.0.0-tmp\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2016-01-15 07:36:08+00:00\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:16
+msgid "404 Picture"
+msgstr "404 Resim"
+
+#: 404.php:18
+msgid "LOOKS LIKE SOMETHING WENT WRONG!"
+msgstr "BİR SORUN OLUŞTU!"
+
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+#: 404.php:23
+msgid ""
+"The page you were looking for is not here. %s Go %s Home %s or try to search:"
+msgstr ""
+"Aradığınız sayfa burada değil. %s Anasayfa'ya %s gidin %s veya aramayı "
+"deneyin:"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Yorumlarda Gezinme"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: comments.php:32 comments.php:87
+msgid "Comments for this post are closed."
+msgstr "Bu gönderinin yorumları kapatılmış."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Bir Yorum Yazın"
+
+#: comments.php:54
+msgid "First and Last name"
+msgstr "Adı ve Soyadı"
+
+#: comments.php:60
+msgid "E-mail Address"
+msgstr "E-posta Adresi"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Web sitesi"
+
+#: header.php:31
+msgid "Top Menu"
+msgstr "Üst Menü"
+
+#: header.php:70
+msgid "MENU"
+msgstr "MENÜ"
+
+#: header.php:79
+#, fuzzy
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr "Düzenle"
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz moderatör onayını bekliyor."
+
+#: inc/filters.php:372
+msgid "After import setup ended!"
+msgstr ""
+
+#: inc/filters.php:380
+msgid ""
+"Please try to manually import the demo data. Here are instructions on how to "
+"do that: %sDocumentation: Import XML File%s"
+msgstr ""
+
+#. translators: %s represents a number
+#: inc/helpers.php:36
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Yorum"
+msgstr[1] "%s Yorum"
+
+#: index.php:39
+msgid "Read More"
+msgstr "Daha Fazla Oku"
+
+#: index.php:48 single.php:59
+msgid "Sorry, no results found."
+msgstr "Üzgünüz, sonuç bulunamadı."
+
+#: part-main-title.php:57
+msgid "Search Results For"
+msgstr "Şunun İçin Arama Sonuçları:"
+
+#: part-main-title.php:59
+msgid "Error 404"
+msgstr "Hata 404"
+
+#: part-meta-data.php:4
+msgid "By"
+msgstr "Yazar:"
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Şunu ara:"
+
+#: searchform.php:12
+msgid "Search ..."
+msgstr "Ara..."
+
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+#: single.php:43
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#. Theme Name of the plugin/theme
+msgid "CargoPress by ProteusThemes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.proteusthemes.com/cargopress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "CargoPress WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.proteusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr ""
+
+#: comments.php:76
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Yorumunuz"
+
+#: functions.php:94
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: functions.php:95
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Üst Çubuk Menüsü"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Dokümantasyon"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Temanın çevrimiçi dokümantasyonunu görmek için burayı tıklayın!"
+
+#: inc/filters.php:221
+msgctxt "backend"
+msgid "Widget Style"
+msgstr "Görsel Öğe Stili"
+
+#: inc/filters.php:223
+msgctxt "backend"
+msgid "Set a box around the widget"
+msgstr "Görsel öğe etrafına bir kutu koy"
+
+#: inc/filters.php:229
+msgctxt "backend"
+msgid "Widget Title"
+msgstr "Görsel Öğe Başlığı"
+
+#: inc/filters.php:231
+msgctxt "backend"
+msgid "Exposed title (bigger font, thin line)"
+msgstr "Açık başlık (büyük yazı tipi, ince çizgi)"
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Blog Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Blog düzeninde kenar çubuğu."
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Normal Sayfa Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Normal sayfada kenar çubuğu."
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Mağaza Kenar Çubuğu"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Mağaza sayfasında kenar çubuğu"
+
+#: inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Header"
+msgstr "Üstbilgi"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Header area for Icon Box and Social Icons widgets."
+msgstr "Simge Kutusu ve Sosyal Simgeler görsel öğeleri için üstbilgi alanı."
+
+#: inc/theme-sidebars.php:67
+msgctxt "backend"
+msgid "Navigation"
+msgstr "Gezinme"
+
+#: inc/theme-sidebars.php:69
+msgctxt "backend"
+msgid "Navigation area for Social Icons widgets."
+msgstr "Sosyal Simgeler görsel öğeleri için gezinme alanı."
+
+#: inc/theme-sidebars.php:82
+msgctxt "backend"
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: inc/theme-sidebars.php:84
+msgctxt "backend"
+msgid ""
+"Footer area works best with %d widgets. This number can be changed in the "
+"Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr ""
+"Altbilgi alanı en iyi %d görsel öğe ile çalışır. Bu sayı şu sıra izlenerek "
+"değiştirilebilir: Görünüm &rarr; Özelleştir &rarr; Tema Seçenekleri &rarr; "
+"Altbilgi."
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s; %2$s"
+
+#: inc/filters.php:97
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/filters.php:184
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: inc/helpers.php:95
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "latin-ext"
+
+#~ msgctxt "backend"
+#~ msgid "CargoPress: Front Page"
+#~ msgstr "CargoPress: Ön Sayfa"

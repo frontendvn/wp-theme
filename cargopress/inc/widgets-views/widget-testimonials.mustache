@@ -1,0 +1,45 @@
+{{{ args.before_widget }}}
+	<div class="testimonial">
+
+		{{{ args.before_title }}}{{{ instance.title }}}{{{ args.after_title }}}
+
+		{{# instance.navigation }}
+			<div class="testimonial__carousel">
+				<a class="testimonial__carousel--left" href="#carousel-testimonials-{{{ args.widget_id }}}" data-slide="prev"><i class="fa  fa-caret-left" aria-hidden="true"></i><span class="sr-only" role="button">{{ text.next }}</span></a>
+				<a class="testimonial__carousel--right" href="#carousel-testimonials-{{{ args.widget_id }}}" data-slide="next"><i class="fa  fa-caret-right" aria-hidden="true"></i><span class="sr-only" role="button">{{ text.previous }}</span></a>
+			</div>
+		{{/ instance.navigation }}
+
+		<div id="carousel-testimonials-{{{ args.widget_id }}}" class="carousel slide" data-ride="carousel" data-interval="{{{ instance.slider_settings }}}">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="row">
+						{{# testimonials }}
+							{{{ more-at-once }}}
+							<div class="col-xs-12  col-sm-{{ instance.spans }}">
+								<blockquote>
+									<p class="testimonial__quote">
+										{{ quote }}
+									</p>
+									<cite class="testimonial__author">
+										{{ author }}{{# author_description }}<span class="testimonial__author-description">, {{ author_description }}</span>{{/ author_description }}
+									</cite>
+
+									{{# display-ratings }}
+										<div class="testimonial__rating">
+											{{# rating }}
+												<i class="fa  fa-star"></i>
+											{{/ rating }}
+										</div>
+									{{/ display-ratings }}
+								</blockquote>
+							</div>
+						{{/ testimonials }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{{{ args.after_widget }}}

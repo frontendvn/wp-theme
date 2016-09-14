@@ -1,0 +1,336 @@
+/* 05.10. Main Navigation */
+.main-navigation {
+	padding: 0 0 20px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+
+	@media (min-width: $screen-md-min) {
+		padding: 0;
+		margin: 0;
+		border-bottom: 0;
+		font-size: 0;
+	}
+
+	@media (min-width: $screen-lg-min) {
+		padding-left: 10px;
+	}
+
+	> li {
+		position: relative;
+
+		@media (min-width: $screen-md-min) {
+			display: inline-block;
+			font-size: 14px;
+		}
+
+		// Main link style.
+		> a {
+			position: relative;
+			display: block;
+			font-size: 16px;
+			line-height: 1.5;
+			font-weight: bold;
+			color: #444444;
+			padding: 10px 0;
+
+			@media (min-width: $screen-md-min) {
+				color: #ffffff;
+				padding: 18px 20px;
+			}
+
+			// Separator between main links.
+			&::before {
+				@media (min-width: $screen-md-min) {
+					position: absolute;
+					content: "";
+					width: 4px;
+					height: 4px;
+					right: -2px;
+					top: calc(50% - 2px);
+					border-radius: 50%;
+					background: rgba(250,250,250,0.2);
+				}
+			}
+		}
+
+		// Don't display last separator.
+		&:last-of-type {
+			> a {
+				&::before {
+					display: none;
+				}
+			}
+		}
+
+		&:hover,
+		&:focus,
+		&[aria-expanded="true"] {
+			> a {
+				color: $primary-color;
+				text-decoration: none;
+
+				@media (min-width: $screen-md-min) {
+					color: #ffffff;
+				}
+
+				// Red line under the links on hover.
+				&::after {
+					@media (min-width: $screen-md-min)  {
+						position: absolute;
+						content: "";
+						width: calc(100% - 30px);
+						height: 5px;
+						left: 15px;
+						bottom: 0;
+						background-color: #e21f2f;
+					}
+				}
+			}
+
+			> .sub-menu {
+				left: 0;
+			}
+		}
+	}
+
+	// Active current link.
+	> .current-menu-item {
+		> a {
+			// Red line under the links for active current link.
+			&::after {
+				@media (min-width: $screen-md-min) {
+					position: absolute;
+					content: "";
+					width: calc(100% - 30px);
+					height: 5px;
+					left: 15px;
+					bottom: 0;
+					background-color: #e21f2f;
+				}
+			}
+		}
+	}
+
+	.menu-item-has-children {
+		// Padding right must be bigger because of indicator for sub-menus.
+		> a {
+			@media (min-width: $screen-md-min) {
+				padding: 18px 35px 18px 20px;
+			}
+		}
+
+		// Indicator for sub-menus.
+		&::after {
+			@media (min-width: $screen-md-min) {
+				position: absolute;
+				content: "\f0d7";
+				font-family: "FontAwesome";
+				font-size: 12px;
+				right: 18px;
+				top: calc(50% - 10px);
+				color: #ffffff;
+			}
+		}
+
+		&:hover {
+			// Indicator for sub-menus hover color.
+			&::after {
+				color: $primary-color;
+			}
+
+			// Different hover for links with sub-menus.
+			> a {
+				@media (min-width: $screen-md-min) {
+					color: $primary-color;
+					background-color: #ffffff;
+					border-top-left-radius: 2px;
+					border-top-right-radius: 2px;
+					padding: 8px 30px 18px 15px;
+					margin: 10px 5px 0 5px;
+				}
+
+				// Separator between main links must be moved a little bit because of indicator for sub-menus.
+				&::before {
+					@media (min-width: $screen-md-min) {
+						right: -7px;
+						top: 18px;
+					}
+				}
+
+				// Don't display line under the main links with sub-menus.
+				&::after {
+					@media (min-width: $screen-md-min) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.sub-menu {
+		list-style: none;
+		padding: 0;
+
+		@media (min-width: $screen-md-min) {
+			position: absolute;
+			left: -9999em;
+			z-index: 9999;
+			margin-left: 5px;
+			box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+		}
+
+		> li {
+			position: relative;
+
+			> a {
+				display: block;
+				font-size: 14px;
+				font-weight: bold;
+				padding: 12px 20px;
+				background-color: #ffffff;
+				color: #999999;
+
+				@media (min-width: $screen-md-min) {
+					border-bottom: 1px solid rgba(0,0,0,0.1);
+					min-width: 160px;
+					white-space: nowrap;
+				}
+
+				&:hover {
+					color: $primary-color;
+					text-decoration: none;
+				}
+			}
+
+			&:last-of-type {
+				> a {
+					@media (min-width: $screen-md-min) {
+						border-bottom-left-radius: 2px;
+						border-bottom-right-radius: 2px;
+						border-bottom: 0;
+					}
+				}
+			}
+
+			&:hover,
+			&[aria-expanded="true"] {
+				> .sub-menu {
+					left: 100%;
+				}
+			}
+
+			> .sub-menu {
+				margin-top: 0;
+				top: 0;
+				margin-left: 0;
+				padding-left: 20px;
+
+				@media (min-width: $screen-md-min) {
+					padding-left: 0;
+					box-shadow: 1px 0 1px #dadada;
+				}
+
+				> li {
+					> a {
+						@media (min-width: $screen-md-min) {
+							border-left: 1px solid rgba(0,0,0,0.1);
+						}
+					}
+
+					&:first-of-type {
+						> a {
+							border-bottom-left-radius: 0;
+							border-top-right-radius: 2px;
+						}
+					}
+
+					&:last-of-type {
+						> a {
+							border-bottom-left-radius: 0;
+							border-bottom-right-radius: 2px;
+						}
+					}
+
+					&:hover {
+						&.menu-item-has-children {
+							> a {
+								border-top-right-radius: 0;
+								border-bottom-right-radius: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.menu-item-has-children {
+			position: relative;
+
+			&:hover {
+				> a {
+					margin: 0;
+					padding: 12px 20px;
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+				}
+
+				&::after {
+					color: $primary-color;
+				}
+			}
+
+			&::after {
+				@media (min-width: $screen-md-min) {
+					position: absolute;
+					content: "\f0da";
+					font-family: "FontAwesome";
+					font-size: 12px;
+					right: 15px;
+					top: calc(50% - 10px);
+					color: #999999;
+				}
+			}
+		}
+	}
+}
+
+// Mobile Toggle Navigation
+.navbar-toggle {
+	background-color: $primary-color;
+	border-radius: 2px;
+	padding: 10px 12px;
+	margin: 10px 0;
+	transition: $primary-transition;
+
+	@media (min-width: $screen-xs-min) {
+		margin: 18px 0;
+	}
+
+	&:hover {
+		background-color: darken($primary-color, 5);
+	}
+
+	.icon-bar {
+		background-color: #ffffff;
+		width: 18px;
+		height: 3px;
+
+		& + .icon-bar {
+			margin-top: 3px;
+		}
+	}
+
+	&__text {
+		font-family: $secondary-font;
+		font-weight: bold;
+		color: #ffffff;
+		display: inline-block;
+		padding: 0 10px 0 0;
+	}
+
+	&__icon-bar {
+		vertical-align: middle;
+		display: inline-block;
+		height: 18px;
+	}
+}

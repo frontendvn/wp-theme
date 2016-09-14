@@ -1,0 +1,79 @@
+/* 05.20. Contact Form 7 */
+.wpcf7-select,
+.wpcf7-text,
+.wpcf7-textarea {
+	background: #f5f5f5;
+	border-radius: 2px;
+	border: 1px solid #eeeeee;
+	box-shadow: none;
+	width: 100%;
+	padding: 17.5px 20px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color: $text-color;
+	transition: $primary-transition;
+
+	&:focus {
+		border-color: #eeeeee;
+		background: #ffffff;
+	}
+}
+
+.wpcf7-textarea {
+	height: 220px;
+}
+
+.wpcf7-submit {
+	margin-bottom: 15px;
+}
+
+.wpcf7 {
+	.wpcf7-response-output {
+		margin: 5px 0;
+		padding: 10px 20px;
+		border-radius: 2px;
+	}
+
+	.wpcf7-validation-errors {
+		background-color: #faf8d2;
+		border: 2px solid #faf8d2;
+		color: darken(#faf8d2, 50);
+	}
+
+	.wpcf7-mail-sent-ng {
+		background-color: #ffe5e5;
+		border: 2px solid #ffe5e5;
+		color: darken(#ffe5e5, 50);
+	}
+
+	.wpcf7-mail-sent-ok {
+		background-color: #dcf2dc;
+		border: 2px solid #dcf2dc;
+		color: darken(#dcf2dc, 50);
+	}
+
+	.wpcf7-not-valid-tip {
+		margin: 0 0 5px 0;
+	}
+}
+
+.contact-form-small {
+	.wpcf7-select,
+	.wpcf7-text,
+	.wpcf7-textarea {
+		padding: 10.5px 15px;
+		margin-bottom: 15px;
+	}
+
+	.wpcf7-textarea {
+		height: 105px;
+	}
+
+	.wpcf7-select {
+		height: 45px;
+	}
+
+	.wpcf7-submit {
+		margin-bottom: 0;
+	}
+}
